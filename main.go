@@ -1,7 +1,7 @@
 package main
 
-import "littlealchemy/scraper"
+// import "littlealchemy/scraper"
 
 func main() {
-	scraper.Scrape()
+	// scraper.Scrape() Scrape the web and save it to ./data/recipes.json
 }

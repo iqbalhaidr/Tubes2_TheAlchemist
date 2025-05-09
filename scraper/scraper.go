@@ -12,58 +12,71 @@ import (
 )
 
 type Recipe struct {
-	Input1 string `json:"Input1"`
-	Input2 string `json:"Input2"`
-	Output string `json:"Output"`
+	Output string     `json:"Output"`
+	Inputs [][]string `json:"Inputs"`
 }
 
 func Scrape() {
 	url := "https://little-alchemy.fandom.com/wiki/Elements_(Little_Alchemy_2)"
 
-	res, err := http.Get(url)
+	resp, err := http.Get(url)
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer res.Body.Close()
+	defer resp.Body.Close()
 
-	doc, err := goquery.NewDocumentFromReader(res.Body)
+	doc, err := goquery.NewDocumentFromReader(resp.Body)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	var recipes []Recipe
+	var results []Recipe
 
-	doc.Find("table.article-table tbody tr").Each(func(i int, s *goquery.Selection) {
-		cols := s.Find("td")
-		if cols.Length() < 3 {
-			return
-		}
+	doc.Find("table.list-table tr").Each(func(i int, s *goquery.Selection) {
+		tds := s.Find("td")
+		if tds.Length() >= 2 {
+			aTags := tds.Eq(0).Find("a")
+			if aTags.Length() < 2 {
+				return
+			}
+			elementHasil := strings.TrimSpace(aTags.Eq(1).Text())
 
-		output := strings.TrimSpace(cols.Eq(0).Text())
-		input1 := strings.TrimSpace(cols.Eq(1).Text())
-		input2 := strings.TrimSpace(cols.Eq(2).Text())
-
-		if input1 != "" && input2 != "" && output != "" {
-			recipes = append(recipes, Recipe{
-				Input1: input1,
-				Input2: input2,
-				Output: output,
+			var elementBahan [][]string
+			tds.Eq(1).Find("li").Each(func(j int, li *goquery.Selection) {
+				aFromLi := li.Find("a")
+				if aFromLi.Length() >= 4 {
+					combo := []string{
+						strings.TrimSpace(aFromLi.Eq(1).Text()),
+						strings.TrimSpace(aFromLi.Eq(3).Text()),
+					}
+					elementBahan = append(elementBahan, combo)
+				}
 			})
+
+			if elementHasil != "" && len(elementBahan) > 0 {
+				results = append(results, Recipe{
+					Output: elementHasil,
+					Inputs: elementBahan,
+				})
+			}
 		}
 	})
 
 	// Simpan ke file JSON
-	file, err := os.Create("recipes.json")
+	file, err := os.Create("./data/recipe.json")
 	if err != nil {
 		log.Fatal(err)
 	}
 	defer file.Close()
 
 	encoder := json.NewEncoder(file)
-	encoder.SetIndent("", "  ") // biar rapi
-	if err := encoder.Encode(recipes); err != nil {
+	encoder.SetIndent("", "  ")
+	encoder.SetEscapeHTML(false)
+
+	err = encoder.Encode(results)
+	if err != nil {
 		log.Fatal(err)
 	}
 
-	fmt.Println("✅ Resep berhasil disimpan ke recipes.json")
+	fmt.Println("Scraping selesai! Data disimpan ke ./data/recipe.json")
 }
