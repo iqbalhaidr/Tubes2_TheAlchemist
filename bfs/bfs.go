@@ -1,6 +1,9 @@
 package bfs
 
-import "fmt"
+import (
+	"fmt"
+	"sync"
+)
 
 var Reverse map[string][][]string
 
@@ -9,56 +12,104 @@ func IsBaseElement(el string) bool {
 	return !found
 }
 
-func Bfs(target string) [][]string {
+func BFS(target string) [][]string {
 	type State struct {
 		Elements []string
 		Path     []string
 	}
 
 	var results [][]string
-	queue := []State{{Elements: []string{target}, Path: []string{}}}
+	var mu sync.Mutex
+	var wg sync.WaitGroup
+
+	queue := make(chan State, 1000000)
 	visited := make(map[string]bool)
+	visitedMu := sync.Mutex{}
 
-	for len(queue) > 0 {
-		curr := queue[0]
-		queue = queue[1:]
+	const workerCount = 8
 
-		allBase := true
-		for _, el := range curr.Elements {
-			if !IsBaseElement(el) {
-				allBase = false
-				break
-			}
-		}
-		if allBase {
-			newPath := append([]string{}, curr.Path...)
-			newPath = append(newPath, curr.Elements...)
-			results = append(results, newPath)
-			continue
-		}
+	queue <- State{Elements: []string{target}, Path: []string{}}
 
-		for i, element := range curr.Elements {
-			if IsBaseElement(element) {
-				continue
-			}
-			for _, inputs := range Reverse[element] {
-				newElements := append([]string{}, curr.Elements[:i]...)
-				newElements = append(newElements, inputs...)
-				newElements = append(newElements, curr.Elements[i+1:]...)
-
-				newPath := append([]string{}, curr.Path...)
-				newPath = append(newPath, element)
-				newElementsStr := fmt.Sprint(newElements)
-				if !visited[newElementsStr] {
-					queue = append(queue, State{Elements: newElements, Path: newPath})
-					visited[newElementsStr] = true
+	worker := func() {
+		defer wg.Done()
+		for state := range queue {
+			allBase := true
+			for _, el := range state.Elements {
+				if !IsBaseElement(el) {
+					allBase = false
+					break
 				}
 			}
-			break
+
+			if allBase {
+				mu.Lock()
+				newPath := append([]string{}, state.Path...)
+				newPath = append(newPath, state.Elements...)
+				results = append(results, newPath)
+				mu.Unlock()
+				continue
+			}
+
+			for i, element := range state.Elements {
+				if IsBaseElement(element) {
+					continue
+				}
+
+				for _, inputs := range Reverse[element] {
+					newElements := append([]string{}, state.Elements[:i]...)
+					newElements = append(newElements, inputs...)
+					newElements = append(newElements, state.Elements[i+1:]...)
+
+					newPath := append([]string{}, state.Path...)
+					newPath = append(newPath, element)
+
+					stateKey := fmt.Sprintf("%v|%v", newElements, newPath)
+
+					visitedMu.Lock()
+					if !visited[stateKey] {
+						visited[stateKey] = true
+						visitedMu.Unlock()
+
+						queue <- State{
+							Elements: newElements,
+							Path:     newPath,
+						}
+					} else {
+						visitedMu.Unlock()
+					}
+				}
+			}
 		}
 	}
 
+	wg.Add(workerCount)
+	for i := 0; i < workerCount; i++ {
+		go worker()
+	}
+
+	go func() {
+		wg.Wait()
+		close(queue)
+	}()
+
+	wg.Wait()
+
 	return results
+}
+
+func FindShortestPath(target string) []string {
+	allPaths := BFS(target)
+	if len(allPaths) == 0 {
+		return nil
+	}
+
+	shortest := allPaths[0]
+	for _, path := range allPaths {
+		if len(path) < len(shortest) {
+			shortest = path
+		}
+	}
+	return shortest
 }
 
 // // Testing: bfs_test.go
@@ -139,13 +190,23 @@ func Bfs(target string) [][]string {
 // 	}
 // }
 
+// func printPath(path []string) {
+// 	for i, element := range path {
+// 		if i > 0 {
+// 			fmt.Print(" -> ")
+// 		}
+// 		fmt.Print(element)
+// 	}
+// 	fmt.Println()
+// }
+
 // func TestBFSTree(t *testing.T) {
 // 	err := loadRecipes()
 // 	if err != nil {
 // 		t.Fatalf("Failed to load recipes: %v", err)
 // 	}
 
-// 	target := "final"
+// 	target := "result"
 
 // 	if recipes, ok := bfs.Reverse[target]; ok {
 // 		for i, recipe := range recipes {
@@ -160,4 +221,33 @@ func Bfs(target string) [][]string {
 // 	} else {
 // 		t.Fatalf("No recipes found for %s", target)
 // 	}
+// }
+
+// func TestBFSAllPaths(t *testing.T) {
+// 	err := loadRecipes()
+// 	if err != nil {
+// 		t.Fatalf("Failed to load recipes: %v", err)
+// 	}
+
+// 	target := "result"
+// 	paths := bfs.BFS(target)
+
+// 	fmt.Printf("\nAll paths to create %s:\n", target)
+// 	for i, path := range paths {
+// 		fmt.Printf("Path %d: ", i+1)
+// 		printPath(path)
+// 	}
+// }
+
+// func TestBFSShortestPath(t *testing.T) {
+// 	err := loadRecipes()
+// 	if err != nil {
+// 		t.Fatalf("Failed to load recipes: %v", err)
+// 	}
+
+// 	target := "result"
+// 	shortestPath := bfs.FindShortestPath(target)
+
+// 	fmt.Printf("\nShortest path to create %s:\n", target)
+// 	printPath(shortestPath)
 // }
