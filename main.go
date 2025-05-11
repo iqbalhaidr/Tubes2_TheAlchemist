@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	dfs.DFS("Airplane", "./data/result.json")
+	// dfs.DFS("Bank", "./data/result.json")
+	dfs.DFSN("Gold", "./data/result.json", 5)
 }
