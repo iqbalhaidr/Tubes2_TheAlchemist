@@ -32,7 +32,7 @@ func Scrape() {
 	}
 
 	var results []Recipe
-	var tierCtr int = -2
+	var tierCtr int = -1
 
 	doc.Find("table.list-table").Each(func(i int, table *goquery.Selection) {
 		tierCtr++
@@ -44,6 +44,10 @@ func Scrape() {
 					return
 				}
 				elementHasil := strings.TrimSpace(aTags.Eq(1).Text())
+
+				if elementHasil == "Time" {
+					tierCtr--
+				}
 
 				var elementBahan [][]string
 				tds.Eq(1).Find("li").Each(func(j int, li *goquery.Selection) {
@@ -57,7 +61,7 @@ func Scrape() {
 					}
 				})
 
-				if elementHasil != "" && len(elementBahan) > 0 {
+				if elementHasil != "" && len(elementBahan) >= 0 {
 					results = append(results, Recipe{
 						Output: elementHasil,
 						Inputs: elementBahan,

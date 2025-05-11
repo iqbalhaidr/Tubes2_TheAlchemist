@@ -11,7 +11,7 @@
   },
   {
     "Output": "Earth",
-    "Inputs": [],
+    "Inputs": null,
     "Tier": 0
   },
   {
@@ -44,7 +44,7 @@
   },
   {
     "Output": "Time",
-    "Inputs": [],
+    "Inputs": null,
     "Tier": 0
   },
   {

@@ -7,7 +7,14 @@ import (
 	"strconv"
 )
 
-/* Example: http://localhost:8080/dfs?element=Gold&multiple=true&n=5 */
+/*
+element = nama element yang ingin dicari resepnya
+multiple = true jika ingin mencari multiple recipe dari sebuah elemen, vice versa
+n = banyaknya resep berbeda yang ingin dicari, jika isMultiple false maka isi 1
+
+Example: http://localhost:8080/dfs?element=Gold&multiple=true&n=5
+*/
+
 func DFSHandler(w http.ResponseWriter, r *http.Request) {
 	// Ambil query parameter dari URL
 	element := r.URL.Query().Get("element")

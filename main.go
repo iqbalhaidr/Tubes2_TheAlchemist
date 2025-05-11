@@ -7,6 +7,14 @@ import (
 )
 
 func main() {
+	/*
+		element = nama element yang ingin dicari resepnya
+		multiple = true jika ingin mencari multiple recipe dari sebuah elemen, vice versa
+		n = banyaknya resep berbeda yang ingin dicari, jika isMultiple false maka isi 1
+
+		Example: http://localhost:8080/dfs?element=Gold&multiple=true&n=5
+	*/
+
 	// Menyediakan handler untuk route /dfs
 	http.HandleFunc("/dfs", dfs.DFSHandler)
 
