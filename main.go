@@ -1,7 +1,7 @@
 package main
 
 import (
-	"littlealchemy/dfs" // Sesuaikan dengan import handler Anda
+	"littlealchemy/src/dfs" // Sesuaikan dengan import handler Anda
 	"log"
 	"net/http"
 )
