@@ -1,7 +1,9 @@
 package main
 
-// import "littlealchemy/scraper"
+import (
+	"littlealchemy/dfs"
+)
 
 func main() {
-	// scraper.Scrape() Scrape the web and save it to ./data/recipes.json
+	dfs.DFS("Airplane", "./data/result.json")
 }

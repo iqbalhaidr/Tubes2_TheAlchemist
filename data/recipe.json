@@ -6,7 +6,13 @@
         "Fire",
         "Mist"
       ]
-    ]
+    ],
+    "Tier": 0
+  },
+  {
+    "Output": "Earth",
+    "Inputs": [],
+    "Tier": 0
   },
   {
     "Output": "Fire",
@@ -19,7 +25,8 @@
         "Fire",
         "Coal"
       ]
-    ]
+    ],
+    "Tier": 0
   },
   {
     "Output": "Water",
@@ -32,7 +39,13 @@
         "Heat",
         "Snow"
       ]
-    ]
+    ],
+    "Tier": 0
+  },
+  {
+    "Output": "Time",
+    "Inputs": [],
+    "Tier": 0
   },
   {
     "Output": "Dust",
@@ -49,7 +62,8 @@
         "Land",
         "Air"
       ]
-    ]
+    ],
+    "Tier": 1
   },
   {
     "Output": "Energy",
@@ -70,7 +84,8 @@
         "Heat",
         "Science"
       ]
-    ]
+    ],
+    "Tier": 1
   },
   {
     "Output": "Land",
@@ -95,7 +110,8 @@
         "Earth",
         "Stone"
       ]
-    ]
+    ],
+    "Tier": 1
   },
   {
     "Output": "Lava",
@@ -112,7 +128,8 @@
         "Earth",
         "Liquid"
       ]
-    ]
+    ],
+    "Tier": 1
   },
   {
     "Output": "Mist",
@@ -129,7 +146,8 @@
         "Air",
         "Rain"
       ]
-    ]
+    ],
+    "Tier": 1
   },
   {
     "Output": "Mud",
@@ -142,7 +160,8 @@
         "Water",
         "Soil"
       ]
-    ]
+    ],
+    "Tier": 1
   },
   {
     "Output": "Pressure",
@@ -167,7 +186,8 @@
         "Ocean",
         "Ocean"
       ]
-    ]
+    ],
+    "Tier": 1
   },
   {
     "Output": "Puddle",
@@ -180,7 +200,8 @@
         "Pond",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 1
   },
   {
     "Output": "Smoke",
@@ -221,7 +242,8 @@
         "Fire",
         "Air"
       ]
-    ]
+    ],
+    "Tier": 1
   },
   {
     "Output": "Steam",
@@ -242,7 +264,8 @@
         "Water",
         "Gas"
       ]
-    ]
+    ],
+    "Tier": 1
   },
   {
     "Output": "Brick",
@@ -267,7 +290,8 @@
         "Clay",
         "Stone"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Continent",
@@ -288,7 +312,8 @@
         "Mountain range",
         "Mountain range"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Earthquake",
@@ -305,7 +330,8 @@
         "Continent",
         "Motion"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Eruption",
@@ -322,7 +348,8 @@
         "Volcano",
         "Time"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Geyser",
@@ -343,7 +370,8 @@
         "Steam",
         "Pressure"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Granite",
@@ -360,7 +388,8 @@
         "Pressure",
         "Rock"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Gunpowder",
@@ -385,7 +414,8 @@
         "Energy",
         "Dust"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Heat",
@@ -406,7 +436,8 @@
         "Air",
         "Energy"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Obsidian",
@@ -423,7 +454,8 @@
         "Lava",
         "Glass"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Pond",
@@ -444,7 +476,8 @@
         "Lake",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Stone",
@@ -461,7 +494,8 @@
         "Air",
         "Lava"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Volcano",
@@ -498,7 +532,8 @@
         "Pressure",
         "Hill"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Wind",
@@ -515,7 +550,8 @@
         "Air",
         "Pressure"
       ]
-    ]
+    ],
+    "Tier": 2
   },
   {
     "Output": "Chimney",
@@ -548,7 +584,8 @@
         "Fireplace",
         "Stone"
       ]
-    ]
+    ],
+    "Tier": 3
   },
   {
     "Output": "Clay",
@@ -581,7 +618,8 @@
         "Rock",
         "Liquid"
       ]
-    ]
+    ],
+    "Tier": 3
   },
   {
     "Output": "Explosion",
@@ -626,7 +664,8 @@
         "Volcano",
         "Petroleum"
       ]
-    ]
+    ],
+    "Tier": 3
   },
   {
     "Output": "Lake",
@@ -647,7 +686,8 @@
         "Sea",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 3
   },
   {
     "Output": "Metal",
@@ -672,7 +712,8 @@
         "Ore",
         "Tool"
       ]
-    ]
+    ],
+    "Tier": 3
   },
   {
     "Output": "Mountain",
@@ -701,7 +742,8 @@
         "Earth",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 3
   },
   {
     "Output": "Planet",
@@ -726,7 +768,8 @@
         "Earth",
         "Sky"
       ]
-    ]
+    ],
+    "Tier": 3
   },
   {
     "Output": "Plasma",
@@ -747,7 +790,8 @@
         "Heat",
         "Pressure"
       ]
-    ]
+    ],
+    "Tier": 3
   },
   {
     "Output": "Sand",
@@ -780,7 +824,8 @@
         "Pebble",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 3
   },
   {
     "Output": "Tornado",
@@ -809,7 +854,8 @@
         "Wind",
         "Motion"
       ]
-    ]
+    ],
+    "Tier": 3
   },
   {
     "Output": "Wall",
@@ -826,7 +872,8 @@
         "Stone",
         "Stone"
       ]
-    ]
+    ],
+    "Tier": 3
   },
   {
     "Output": "Warmth",
@@ -839,7 +886,8 @@
         "Heat",
         "Human"
       ]
-    ]
+    ],
+    "Tier": 3
   },
   {
     "Output": "Atmosphere",
@@ -852,7 +900,8 @@
         "Air",
         "Sky"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Atomic bomb",
@@ -869,7 +918,8 @@
         "Explosion",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Avalanche",
@@ -926,7 +976,8 @@
         "Gun",
         "Mountain range"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Beach",
@@ -951,7 +1002,8 @@
         "Sand",
         "Wave"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Blade",
@@ -972,7 +1024,8 @@
         "Rock",
         "Steel"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Boiler",
@@ -997,7 +1050,8 @@
         "Steam",
         "Tool"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Bullet",
@@ -1018,7 +1072,8 @@
         "Gunpowder",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Dam",
@@ -1059,7 +1114,8 @@
         "Beaver",
         "Water"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Desert",
@@ -1084,7 +1140,8 @@
         "Sand",
         "Vulture"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Dune",
@@ -1109,7 +1166,8 @@
         "Sandstorm",
         "Desert"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Firewall",
@@ -1118,7 +1176,8 @@
         "Fire",
         "Wall"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Glass",
@@ -1139,7 +1198,8 @@
         "Sand",
         "Electricity"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Gold",
@@ -1204,7 +1264,8 @@
         "Quicksilver",
         "Philosopher's stone"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Grenade",
@@ -1221,7 +1282,8 @@
         "Explosion",
         "Warrior"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "House",
@@ -1246,7 +1308,8 @@
         "Family",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Mercury",
@@ -1259,7 +1322,8 @@
         "Planet",
         "Heat"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Moon",
@@ -1300,7 +1364,8 @@
         "Night",
         "Cheese"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Mountain range",
@@ -1313,7 +1378,8 @@
         "Mountain",
         "Continent"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Plow",
@@ -1346,7 +1412,8 @@
         "Field",
         "Tool"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "River",
@@ -1371,7 +1438,8 @@
         "Rain",
         "Hill"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Rust",
@@ -1392,7 +1460,8 @@
         "Steel",
         "Oxygen"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Sandstone",
@@ -1409,7 +1478,8 @@
         "Sand",
         "Earth"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Sandstorm",
@@ -1442,7 +1512,8 @@
         "Desert",
         "Wind"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Sea",
@@ -1463,7 +1534,8 @@
         "Ocean",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Solar system",
@@ -1504,7 +1576,8 @@
         "Saturn",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Sun",
@@ -1537,7 +1610,8 @@
         "Planet",
         "Light"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Venus",
@@ -1554,7 +1628,8 @@
         "Planet",
         "Volcano"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Waterfall",
@@ -1583,7 +1658,8 @@
         "Lake",
         "Hill"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Wave",
@@ -1624,7 +1700,8 @@
         "Lake",
         "Hurricane"
       ]
-    ]
+    ],
+    "Tier": 4
   },
   {
     "Output": "Aquarium",
@@ -1653,7 +1730,8 @@
         "Small",
         "Swimming pool"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Aurora",
@@ -1686,7 +1764,8 @@
         "Sun",
         "Atmosphere"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Bank",
@@ -1735,7 +1814,8 @@
         "House",
         "Vault"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Black hole",
@@ -1756,7 +1836,8 @@
         "Darkness",
         "Sun"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Blender",
@@ -1781,7 +1862,8 @@
         "Blade",
         "Motion"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Bridge",
@@ -1810,7 +1892,8 @@
         "Stream",
         "Steel"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Cloud",
@@ -1831,7 +1914,8 @@
         "Sky",
         "Water"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Current",
@@ -1868,7 +1952,8 @@
         "Sea",
         "Science"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Eclipse",
@@ -1877,7 +1962,8 @@
         "Sun",
         "Moon"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Factory",
@@ -1890,7 +1976,8 @@
         "House",
         "Tool"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Field",
@@ -1931,7 +2018,8 @@
         "Plow",
         "Soil"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Fireworks",
@@ -1944,7 +2032,8 @@
         "Explosion",
         "Atmosphere"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Flood",
@@ -1985,7 +2074,8 @@
         "Tsunami",
         "City"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Galaxy",
@@ -2026,7 +2116,8 @@
         "Supernova",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Glasses",
@@ -2055,7 +2146,8 @@
         "Lens",
         "Lens"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Gun",
@@ -2088,7 +2180,8 @@
         "Bow",
         "Gunpowder"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Hourglass",
@@ -2113,7 +2206,8 @@
         "Time",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Hurricane",
@@ -2134,7 +2228,8 @@
         "Sea",
         "Storm"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Island",
@@ -2155,7 +2250,8 @@
         "Maui's fishhook",
         "Sea"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Katana",
@@ -2180,7 +2276,8 @@
         "Sword",
         "Ninja"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Mars",
@@ -2193,7 +2290,8 @@
         "Planet",
         "Desert"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Meteoroid",
@@ -2234,7 +2332,8 @@
         "Sun",
         "Boulder"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Mirror",
@@ -2251,7 +2350,8 @@
         "Glass",
         "Wood"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Oasis",
@@ -2288,7 +2388,8 @@
         "Desert",
         "Palm"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Ocean",
@@ -2309,7 +2410,8 @@
         "Tide",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Primordial soup",
@@ -2338,7 +2440,8 @@
         "Earth",
         "Sea"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Pyramid",
@@ -2375,7 +2478,8 @@
         "Container",
         "Book of the dead"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Rainbow",
@@ -2408,7 +2512,8 @@
         "Prism",
         "Light"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Rocket",
@@ -2449,7 +2554,8 @@
         "Atmosphere",
         "Pirate ship"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Safe",
@@ -2478,7 +2584,8 @@
         "Container",
         "Gold"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Salt",
@@ -2507,7 +2614,8 @@
         "Ocean",
         "Mineral"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Scissors",
@@ -2532,7 +2640,8 @@
         "Sword",
         "Paper"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Sky",
@@ -2553,7 +2662,8 @@
         "Cloud",
         "Atmosphere"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Solar cell",
@@ -2578,7 +2688,8 @@
         "Tool",
         "Light"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Sound",
@@ -2599,7 +2710,8 @@
         "Wave",
         "Wolf"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Space station",
@@ -2628,7 +2740,8 @@
         "Atmosphere",
         "Village"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Supernova",
@@ -2649,7 +2762,8 @@
         "Explosion",
         "Space"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Swimming pool",
@@ -2666,7 +2780,8 @@
         "Aquarium",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Sword",
@@ -2683,7 +2798,8 @@
         "Blade",
         "Wood"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Telescope",
@@ -2744,7 +2860,8 @@
         "Glass",
         "Supernova"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Tide",
@@ -2765,7 +2882,8 @@
         "Sea",
         "Time"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Tsunami",
@@ -2794,7 +2912,8 @@
         "Ocean",
         "Meteor"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Village",
@@ -2819,7 +2938,8 @@
         "Bakery",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Windmill",
@@ -2844,7 +2964,8 @@
         "Wheel",
         "Wall"
       ]
-    ]
+    ],
+    "Tier": 5
   },
   {
     "Output": "Acid rain",
@@ -2877,7 +2998,8 @@
         "Cloud",
         "Sickness"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Archipelago",
@@ -2894,7 +3016,8 @@
         "Island",
         "Ocean"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Barn",
@@ -2967,7 +3090,8 @@
         "Container",
         "Babe the blue ox"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Bayonet",
@@ -2984,7 +3108,8 @@
         "Gun",
         "Axe"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Bell",
@@ -3009,7 +3134,8 @@
         "Steel",
         "Hammer"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Binoculars",
@@ -3022,7 +3148,8 @@
         "Glasses",
         "Glasses"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "City",
@@ -3063,7 +3190,8 @@
         "Bank",
         "Post office"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Day",
@@ -3084,7 +3212,8 @@
         "Time",
         "Dawn"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Double rainbow!",
@@ -3093,7 +3222,8 @@
         "Rainbow",
         "Rainbow"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Electricity",
@@ -3138,7 +3268,8 @@
         "Solar cell",
         "Star"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Excalibur",
@@ -3167,7 +3298,8 @@
         "Sword",
         "Fairy tale"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Fence",
@@ -3196,7 +3328,8 @@
         "Garden",
         "Wall"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Flamethrower",
@@ -3213,7 +3346,8 @@
         "Gun",
         "Volcano"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Fog",
@@ -3242,7 +3376,8 @@
         "Cloud",
         "Forest"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Galaxy cluster",
@@ -3255,7 +3390,8 @@
         "Galaxy",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Hangar",
@@ -3340,7 +3476,8 @@
         "Spaceship",
         "Barn"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Horizon",
@@ -3369,7 +3506,8 @@
         "Sea",
         "Sky"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Jupiter",
@@ -3398,7 +3536,8 @@
         "Saturn",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Life",
@@ -3451,7 +3590,8 @@
         "Lightning",
         "Lake"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Light sword",
@@ -3476,7 +3616,8 @@
         "Sword",
         "Force knight"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Lightning",
@@ -3517,7 +3658,8 @@
         "Cyclops",
         "Tool"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Meteor",
@@ -3542,7 +3684,8 @@
         "Meteoroid",
         "Day"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Night",
@@ -3563,7 +3706,8 @@
         "Time",
         "Twilight"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Paint",
@@ -3608,7 +3752,8 @@
         "Liquid",
         "Pencil"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Park",
@@ -3645,7 +3790,8 @@
         "Village",
         "Field"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Prism",
@@ -3666,7 +3812,8 @@
         "Crystal ball",
         "Double rainbow!"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Rain",
@@ -3683,7 +3830,8 @@
         "Cloud",
         "Water"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Ruins",
@@ -3716,7 +3864,8 @@
         "Time",
         "Farm"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Safety glasses",
@@ -3741,7 +3890,8 @@
         "Glasses",
         "Armor"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Skyscraper",
@@ -3762,7 +3912,8 @@
         "Village",
         "Sky"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Space",
@@ -3787,7 +3938,8 @@
         "Solar system",
         "Sky"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Storm",
@@ -3808,7 +3960,8 @@
         "Rain",
         "Wind"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Stun gun",
@@ -3833,7 +3986,8 @@
         "Bow",
         "Energy"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Sunglasses",
@@ -3858,7 +4012,8 @@
         "Glasses",
         "Light"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Swim goggles",
@@ -3903,7 +4058,8 @@
         "Sunglasses",
         "River"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Water gun",
@@ -3920,7 +4076,8 @@
         "Gun",
         "Puddle"
       ]
-    ]
+    ],
+    "Tier": 6
   },
   {
     "Output": "Alien",
@@ -3961,7 +4118,8 @@
         "Life",
         "Jupiter"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Animal",
@@ -3990,7 +4148,8 @@
         "Life",
         "Desert"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Bacteria",
@@ -4007,7 +4166,8 @@
         "Life",
         "Mud"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Clock",
@@ -4052,7 +4212,8 @@
         "Watch",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Darkness",
@@ -4065,7 +4226,8 @@
         "Sky",
         "Twilight"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Dawn",
@@ -4078,7 +4240,8 @@
         "Time",
         "Night"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Death",
@@ -4103,7 +4266,8 @@
         "Graveyard",
         "Philosophy"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Farm",
@@ -4128,7 +4292,8 @@
         "House",
         "Tractor"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Human",
@@ -4153,7 +4318,8 @@
         "Tool",
         "Monkey"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Light bulb",
@@ -4170,7 +4336,8 @@
         "Light",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Magic",
@@ -4191,7 +4358,8 @@
         "Energy",
         "Wizard"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Ozone",
@@ -4212,7 +4380,8 @@
         "Electricity",
         "Air"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Phoenix",
@@ -4233,7 +4402,8 @@
         "Fire",
         "Egg"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Plankton",
@@ -4262,7 +4432,8 @@
         "Bacteria",
         "Sea"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Robot",
@@ -4291,7 +4462,8 @@
         "Golem",
         "Steel"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Smog",
@@ -4316,7 +4488,8 @@
         "City",
         "Air"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Snow",
@@ -4337,7 +4510,8 @@
         "Steam",
         "Cold"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Soil",
@@ -4358,7 +4532,8 @@
         "Land",
         "Organic matter"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Spaceship",
@@ -4395,7 +4570,8 @@
         "Astronaut",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Star",
@@ -4424,7 +4600,8 @@
         "Sun",
         "Space"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Twilight",
@@ -4437,7 +4614,8 @@
         "Day",
         "Time"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Universe",
@@ -4458,7 +4636,8 @@
         "Primordial soup",
         "Cosmic egg"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Wind turbine",
@@ -4479,7 +4658,8 @@
         "Wind",
         "Electricity"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Wire",
@@ -4504,7 +4684,8 @@
         "Electricity",
         "Rope"
       ]
-    ]
+    ],
+    "Tier": 7
   },
   {
     "Output": "Alarm clock",
@@ -4533,7 +4714,8 @@
         "Watch",
         "Bell"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Alchemist",
@@ -4546,7 +4728,8 @@
         "Gold",
         "Philosophy"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Allergy",
@@ -4559,7 +4742,8 @@
         "Human",
         "Pollen"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Antarctica",
@@ -4580,7 +4764,8 @@
         "Continent",
         "Ice"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Archeologist",
@@ -4593,7 +4778,8 @@
         "Ruins",
         "Science"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Astronaut",
@@ -4646,7 +4832,8 @@
         "Human",
         "Moon rover"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Astronomer",
@@ -4655,7 +4842,8 @@
         "Human",
         "Telescope"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Beaver",
@@ -4676,7 +4864,8 @@
         "Animal",
         "Stream"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Bird",
@@ -4713,7 +4902,8 @@
         "Time",
         "Pterodactyl"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Blizzard",
@@ -4742,7 +4932,8 @@
         "Snow",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Blood",
@@ -4755,7 +4946,8 @@
         "Warrior",
         "Sword"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Butterfly",
@@ -4776,7 +4968,8 @@
         "Animal",
         "Double rainbow!"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Cable car",
@@ -4805,7 +4998,8 @@
         "Mountain range",
         "Rope"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Camel",
@@ -4862,7 +5056,8 @@
         "Dune",
         "Cow"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Cat",
@@ -4879,7 +5074,8 @@
         "Animal",
         "Night"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Chain",
@@ -4900,7 +5096,8 @@
         "Wire",
         "Steel"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Cold",
@@ -4933,7 +5130,8 @@
         "Space",
         "Thermometer"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Constellation",
@@ -4942,7 +5140,8 @@
         "Star",
         "Star"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Corpse",
@@ -4983,7 +5182,8 @@
         "Jiangshi",
         "Peach of immortality"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Crystal ball",
@@ -5012,7 +5212,8 @@
         "Snow globe",
         "Magic"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Cyborg",
@@ -5065,7 +5266,8 @@
         "Robot",
         "Electrician"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Dew",
@@ -5106,7 +5308,8 @@
         "Fog",
         "Dawn"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Domestication",
@@ -5127,7 +5330,8 @@
         "Farmer",
         "Science"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Dynamite",
@@ -5144,7 +5348,8 @@
         "Gunpowder",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Egg",
@@ -5289,7 +5494,8 @@
         "Tyrannosaurus rex",
         "Tyrannosaurus rex"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Electrician",
@@ -5302,7 +5508,8 @@
         "Human",
         "Wire"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Family",
@@ -5319,7 +5526,8 @@
         "Love",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Farmer",
@@ -5352,7 +5560,8 @@
         "Human",
         "Orchard"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Firefighter",
@@ -5369,7 +5578,8 @@
         "Human",
         "Fire extinguisher"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Fish",
@@ -5406,7 +5616,8 @@
         "Egg",
         "Lake"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Force knight",
@@ -5423,7 +5634,8 @@
         "Knight",
         "Light sword"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Frog",
@@ -5444,7 +5656,8 @@
         "Egg",
         "Puddle"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Glacier",
@@ -5469,7 +5682,8 @@
         "Time",
         "Ice"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Gravestone",
@@ -5498,7 +5712,8 @@
         "Graveyard",
         "Rock"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Hacker",
@@ -5519,7 +5734,8 @@
         "Human",
         "Internet"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Hero",
@@ -5540,7 +5756,8 @@
         "Human",
         "Lightning"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Horse",
@@ -5577,7 +5794,8 @@
         "Livestock",
         "Saddle"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Idea",
@@ -5706,7 +5924,8 @@
         "Alchemist",
         "Alchemist"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Igloo",
@@ -5727,7 +5946,8 @@
         "House",
         "Snowman"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Lamp",
@@ -5740,7 +5960,8 @@
         "Light bulb",
         "Steel"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Light",
@@ -5753,7 +5974,8 @@
         "Electricity",
         "Flashlight"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Livestock",
@@ -5774,7 +5996,8 @@
         "Animal",
         "Domestication"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Lizard",
@@ -5815,7 +6038,8 @@
         "Blood",
         "Cold"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Love",
@@ -5832,7 +6056,8 @@
         "Cupid",
         "Arrow"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Meat",
@@ -6001,7 +6226,8 @@
         "Net",
         "Flying fish"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Microscope",
@@ -6026,7 +6252,8 @@
         "Tool",
         "Lens"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Monarch",
@@ -6039,7 +6266,8 @@
         "Human",
         "Excalibur"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Mummy",
@@ -6068,7 +6296,8 @@
         "Human",
         "Book of the dead"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Organic matter",
@@ -6089,7 +6318,8 @@
         "Corpse",
         "Science"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Painter",
@@ -6106,7 +6336,8 @@
         "Human",
         "Painting"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Pig",
@@ -6123,7 +6354,8 @@
         "Mud",
         "Cow"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Plant",
@@ -6168,7 +6400,8 @@
         "Rain",
         "Soil"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Potter",
@@ -6181,7 +6414,8 @@
         "Human",
         "Pottery"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Sailor",
@@ -6210,7 +6444,8 @@
         "Human",
         "Lake"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Samurai",
@@ -6219,7 +6454,8 @@
         "Human",
         "Katana"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Science",
@@ -6236,7 +6472,8 @@
         "Human",
         "Universe"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Scorpion",
@@ -6261,7 +6498,8 @@
         "Spider",
         "Desert"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Shuriken",
@@ -6286,7 +6524,8 @@
         "Ninja",
         "Blade"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Sickness",
@@ -6303,7 +6542,8 @@
         "Human",
         "Sickness"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Ski goggles",
@@ -6340,7 +6580,8 @@
         "Skier",
         "Sunglasses"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Skier",
@@ -6357,7 +6598,8 @@
         "Human",
         "Mountain range"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Sloth",
@@ -6370,7 +6612,8 @@
         "Tree",
         "Manatee"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Snake",
@@ -6387,7 +6630,8 @@
         "Electric eel",
         "Land"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Snow globe",
@@ -6464,7 +6708,8 @@
         "Glass",
         "Blizzard"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Snowball",
@@ -6485,7 +6730,8 @@
         "Snow",
         "Earth"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Snowman",
@@ -6514,7 +6760,8 @@
         "Snowball",
         "Snowball"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Starfish",
@@ -6531,7 +6778,8 @@
         "Star",
         "Sea"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Sundial",
@@ -6576,7 +6824,8 @@
         "Day",
         "Tool"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Surfer",
@@ -6589,7 +6838,8 @@
         "Human",
         "Beach"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Swimmer",
@@ -6610,7 +6860,8 @@
         "Human",
         "Swimming pool"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Tool",
@@ -6651,7 +6902,8 @@
         "Wood",
         "Rock"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Turtle",
@@ -6668,7 +6920,8 @@
         "Animal",
         "Beach"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Ufo",
@@ -6697,7 +6950,8 @@
         "Alien",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Warrior",
@@ -6710,7 +6964,8 @@
         "Human",
         "Bow"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Watch",
@@ -6723,7 +6978,8 @@
         "Clock",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Wizard",
@@ -6744,7 +7000,8 @@
         "Human",
         "Double rainbow!"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Wolf",
@@ -6765,7 +7022,8 @@
         "Dog",
         "Blood"
       ]
-    ]
+    ],
+    "Tier": 8
   },
   {
     "Output": "Airplane",
@@ -6922,7 +7180,8 @@
         "Pilot",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Algae",
@@ -6943,7 +7202,8 @@
         "Grass",
         "Lake"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Alligator",
@@ -6960,7 +7220,8 @@
         "Lizard",
         "Lake"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Angel",
@@ -6989,7 +7250,8 @@
         "Good",
         "Deity"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Arctic",
@@ -7002,7 +7264,8 @@
         "Cold",
         "Ocean"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Ash",
@@ -7059,7 +7322,8 @@
         "Vampire",
         "Holy water"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Bacon",
@@ -7080,7 +7344,8 @@
         "Ham",
         "Campfire"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Birdcage",
@@ -7101,7 +7366,8 @@
         "Bird",
         "Cage"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Birdhouse",
@@ -7118,7 +7384,8 @@
         "Egg",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Bone",
@@ -7143,7 +7410,8 @@
         "Wolf",
         "Meat"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Butcher",
@@ -7156,7 +7424,8 @@
         "Human",
         "Ham"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Cactus",
@@ -7177,7 +7446,8 @@
         "Desert",
         "Tree"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Cage",
@@ -7230,7 +7500,8 @@
         "Hamster",
         "Wall"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Carbon dioxide",
@@ -7263,7 +7534,8 @@
         "Grass",
         "Night"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Carrot",
@@ -7284,7 +7556,8 @@
         "Snowman",
         "Sun"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Castle",
@@ -7353,7 +7626,8 @@
         "Paladin",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Catnip",
@@ -7374,7 +7648,8 @@
         "Baast",
         "Plant"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Cave",
@@ -7411,7 +7686,8 @@
         "Container",
         "Bat"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Centaur",
@@ -7424,7 +7700,8 @@
         "Horse",
         "Story"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Chameleon",
@@ -7453,7 +7730,8 @@
         "Turtle",
         "Double rainbow!"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Charcoal",
@@ -7474,7 +7752,8 @@
         "Fire",
         "Organic matter"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Chicken",
@@ -7519,7 +7798,8 @@
         "Egg",
         "Farm"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Chill",
@@ -7536,7 +7816,8 @@
         "Human",
         "Ice"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Coal",
@@ -7565,7 +7846,8 @@
         "Pressure",
         "Peat"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Computer",
@@ -7590,7 +7872,8 @@
         "Email",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Cotton",
@@ -7615,7 +7898,8 @@
         "Plant",
         "Sheep"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Cow",
@@ -7636,7 +7920,8 @@
         "Livestock",
         "Grass"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Crow",
@@ -7673,7 +7958,8 @@
         "Hummingbird",
         "Field"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Cuckoo",
@@ -7702,7 +7988,8 @@
         "Hummingbird",
         "Alarm clock"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Dinosaur",
@@ -7715,7 +8002,8 @@
         "Lizard",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Dog",
@@ -7748,7 +8036,8 @@
         "Wolf",
         "Campfire"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Don quixote",
@@ -7769,7 +8058,8 @@
         "Windmill",
         "Hero"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Dragon",
@@ -7802,7 +8092,8 @@
         "Dinosaur",
         "Monster"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Duck",
@@ -7863,7 +8154,8 @@
         "Chicken",
         "Lake"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Eagle",
@@ -7876,7 +8168,8 @@
         "Bird",
         "Mountain range"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Egg timer",
@@ -7893,7 +8186,8 @@
         "Egg",
         "Watch"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Electric eel",
@@ -7902,7 +8196,8 @@
         "Fish",
         "Electricity"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Family tree",
@@ -7919,7 +8214,8 @@
         "Time",
         "Family"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Firestation",
@@ -7944,7 +8240,8 @@
         "Firefighter",
         "City"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Fishing rod",
@@ -7997,7 +8294,8 @@
         "Piranha",
         "Thread"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Flashlight",
@@ -8018,7 +8316,8 @@
         "Human",
         "Lamp"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Flower",
@@ -8055,7 +8354,8 @@
         "Garden",
         "Seed"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Flying fish",
@@ -8072,7 +8372,8 @@
         "Fish",
         "Air"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Fossil",
@@ -8137,7 +8438,8 @@
         "Skeleton",
         "Time"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Frankenstein's monster",
@@ -8174,7 +8476,8 @@
         "Monster",
         "Corpse"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Fridge",
@@ -8215,7 +8518,8 @@
         "Ice cream",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Garden",
@@ -8256,7 +8560,8 @@
         "Flower",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Gas",
@@ -8273,7 +8578,8 @@
         "Energy",
         "Liquid"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Ghost",
@@ -8334,7 +8640,8 @@
         "Night",
         "Legend"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Goat",
@@ -8363,7 +8670,8 @@
         "Cow",
         "Hill"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Grass",
@@ -8376,7 +8684,8 @@
         "Plant",
         "Land"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Grave",
@@ -8417,7 +8726,8 @@
         "Coffin",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Graveyard",
@@ -8450,7 +8760,8 @@
         "Gravestone",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Greenhouse",
@@ -8487,7 +8798,8 @@
         "Plant",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Ham",
@@ -8500,7 +8812,8 @@
         "Smoke",
         "Pig"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Hammer",
@@ -8525,7 +8838,8 @@
         "Tool",
         "Woodpecker"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Hedge",
@@ -8554,7 +8868,8 @@
         "Garden",
         "Wall"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Hippo",
@@ -8575,7 +8890,8 @@
         "Cow",
         "Water"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Horseshoe",
@@ -8588,7 +8904,8 @@
         "Horse",
         "Steel"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Hospital",
@@ -8621,7 +8938,8 @@
         "Doctor",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Hummingbird",
@@ -8670,7 +8988,8 @@
         "Garden",
         "Seagull"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Ice",
@@ -8691,7 +9010,8 @@
         "Puddle",
         "Solid"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Iceberg",
@@ -8720,7 +9040,8 @@
         "Ocean",
         "Arctic"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Ivy",
@@ -8733,7 +9054,8 @@
         "Grass",
         "Wall"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Jerky",
@@ -8754,7 +9076,8 @@
         "Steak",
         "Heat"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Knight",
@@ -8775,7 +9098,8 @@
         "Warrior",
         "Horse"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Lava lamp",
@@ -8792,7 +9116,8 @@
         "Lamp",
         "Volcano"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Leather",
@@ -8833,7 +9158,8 @@
         "Tool",
         "Sheep"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Lens",
@@ -8846,7 +9172,8 @@
         "Glass",
         "Engineer"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Lighthouse",
@@ -8883,7 +9210,8 @@
         "Spotlight",
         "Beach"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Lion",
@@ -8904,7 +9232,8 @@
         "Cat",
         "Monarch"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Liquid",
@@ -8921,7 +9250,8 @@
         "Energy",
         "Solid"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Machine",
@@ -8954,7 +9284,8 @@
         "Boiler",
         "Chain"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Magma",
@@ -8967,7 +9298,8 @@
         "Volcano",
         "Science"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Medusa",
@@ -8988,7 +9320,8 @@
         "Snake",
         "Hero"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Mermaid",
@@ -9017,7 +9350,8 @@
         "Swimmer",
         "Magic"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Mineral",
@@ -9046,7 +9380,8 @@
         "Organic matter",
         "Mountain"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Moss",
@@ -9087,7 +9422,8 @@
         "Boulder",
         "Algae"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Moth",
@@ -9116,7 +9452,8 @@
         "Butterfly",
         "Flashlight"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Motion",
@@ -9157,7 +9494,8 @@
         "River",
         "Philosophy"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Nest",
@@ -9194,7 +9532,8 @@
         "Egg",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Ninja",
@@ -9203,7 +9542,8 @@
         "Human",
         "Shuriken"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Ninja turtle",
@@ -9220,7 +9560,8 @@
         "Turtle",
         "Katana"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Omelette",
@@ -9237,7 +9578,8 @@
         "Egg",
         "Tool"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Optical fiber",
@@ -9254,7 +9596,8 @@
         "Light",
         "Internet"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Ostrich",
@@ -9271,7 +9614,8 @@
         "Bird",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Owl",
@@ -9292,7 +9636,8 @@
         "Bird",
         "Twilight"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Oxygen",
@@ -9329,7 +9674,8 @@
         "Carbon dioxide",
         "Algae"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Peacock",
@@ -9346,7 +9692,8 @@
         "Bird",
         "Double rainbow!"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Pegasus",
@@ -9367,7 +9714,8 @@
         "Unicorn",
         "Sky"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Penguin",
@@ -9392,7 +9740,8 @@
         "Animal",
         "Antarctica"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Philosophy",
@@ -9409,7 +9758,8 @@
         "Egg",
         "Chicken"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Pigeon",
@@ -9434,7 +9784,8 @@
         "Bird",
         "Village"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Piggy bank",
@@ -9451,7 +9802,8 @@
         "Pig",
         "Gold"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Piranha",
@@ -9464,7 +9816,8 @@
         "Fish",
         "Wolf"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Pirate",
@@ -9485,7 +9838,8 @@
         "Sailor",
         "Gun"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Platypus",
@@ -9502,7 +9856,8 @@
         "Beaver",
         "Seagull"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Pollen",
@@ -9523,7 +9878,8 @@
         "Flower",
         "Wind"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Pottery",
@@ -9536,7 +9892,8 @@
         "Clay",
         "Tool"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Reed",
@@ -9573,7 +9930,8 @@
         "Grass",
         "River"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Ring",
@@ -9606,7 +9964,8 @@
         "Love",
         "Steel"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Roe",
@@ -9635,7 +9994,8 @@
         "Egg",
         "Flying fish"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Rope",
@@ -9664,7 +10024,8 @@
         "Tool",
         "Pirate ship"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Rose",
@@ -9685,7 +10046,8 @@
         "Blade",
         "Flower"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Saddle",
@@ -9702,7 +10064,8 @@
         "Horse",
         "Fabric"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Seagull",
@@ -9743,7 +10106,8 @@
         "Rat",
         "Beach"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Seahorse",
@@ -9768,7 +10132,8 @@
         "Horse",
         "Fish"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Seasickness",
@@ -9797,7 +10162,8 @@
         "Sickness",
         "Steamboat"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Seaweed",
@@ -9822,7 +10188,8 @@
         "Grass",
         "Ocean"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Shark",
@@ -9851,7 +10218,8 @@
         "Blood",
         "Fish"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Sheep",
@@ -9880,7 +10248,8 @@
         "Mountain goat",
         "Domestication"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Skeleton",
@@ -9897,7 +10266,8 @@
         "Bone",
         "Corpse"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Snowboard",
@@ -9926,7 +10296,8 @@
         "Surfer",
         "Mountain range"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Solid",
@@ -9939,7 +10310,8 @@
         "Earth",
         "Science"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Spotlight",
@@ -9956,7 +10328,8 @@
         "Light",
         "Steel"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Steak",
@@ -9977,7 +10350,8 @@
         "Cow",
         "Fire"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Stethoscope",
@@ -10002,7 +10376,8 @@
         "Tool",
         "Hospital"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Story",
@@ -10015,7 +10390,8 @@
         "Human",
         "Hero"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Sunflower",
@@ -10028,7 +10404,8 @@
         "Sun",
         "Flower"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Swordfish",
@@ -10049,7 +10426,8 @@
         "Shark",
         "Blade"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Tobacco",
@@ -10066,7 +10444,8 @@
         "Grass",
         "Smoke"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Toolbox",
@@ -10115,7 +10494,8 @@
         "Chain",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Toucan",
@@ -10144,7 +10524,8 @@
         "Palm",
         "Pigeon"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Tree",
@@ -10165,7 +10546,8 @@
         "Nest",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Umbrella",
@@ -10186,7 +10568,8 @@
         "Storm",
         "Fabric"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Unicorn",
@@ -10211,7 +10594,8 @@
         "Horse",
         "Double rainbow!"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Vampire",
@@ -10228,7 +10612,8 @@
         "Human",
         "Bat"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Vegetable",
@@ -10253,7 +10638,8 @@
         "Plant",
         "Domestication"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Vulture",
@@ -10318,7 +10704,8 @@
         "Desert",
         "Duck"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Wand",
@@ -10339,7 +10726,8 @@
         "Wizard",
         "Pencil"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Werewolf",
@@ -10356,7 +10744,8 @@
         "Wolf",
         "Monster"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Wheel",
@@ -10389,7 +10778,8 @@
         "Tool",
         "River"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Wild boar",
@@ -10406,7 +10796,8 @@
         "Pig",
         "Hill"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Windsurfer",
@@ -10415,7 +10806,8 @@
         "Wind",
         "Surfer"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Zombie",
@@ -10440,7 +10832,8 @@
         "Corpse",
         "Necromancer"
       ]
-    ]
+    ],
+    "Tier": 9
   },
   {
     "Output": "Alpaca",
@@ -10457,7 +10850,8 @@
         "Sheep",
         "Mountain goat"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Angler",
@@ -10470,7 +10864,8 @@
         "Sailor",
         "Fishing rod"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Ant",
@@ -10483,7 +10878,8 @@
         "Grass",
         "Spider"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Battery",
@@ -10504,7 +10900,8 @@
         "Electricity",
         "Ore"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Bee",
@@ -10517,7 +10914,8 @@
         "Animal",
         "Garden"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Bicycle",
@@ -10534,7 +10932,8 @@
         "Wheel",
         "Machine"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Big",
@@ -10563,7 +10962,8 @@
         "Planet",
         "Philosophy"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Bonsai tree",
@@ -10584,7 +10984,8 @@
         "Tree",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Cannon",
@@ -10605,7 +11006,8 @@
         "Gun",
         "Castle"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Car",
@@ -10646,7 +11048,8 @@
         "Cart",
         "Combustion engine"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Cauldron",
@@ -10675,7 +11078,8 @@
         "Pottery",
         "Steel"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Caviar",
@@ -10688,7 +11092,8 @@
         "Roe",
         "Cook"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Chicken coop",
@@ -10721,7 +11126,8 @@
         "Cockatrice",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Chicken soup",
@@ -10742,7 +11148,8 @@
         "Chicken wing",
         "Liquid"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Chicken wing",
@@ -10755,7 +11162,8 @@
         "Chicken",
         "Bbq"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Christmas tree",
@@ -10780,7 +11188,8 @@
         "Tree",
         "Gift"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Coconut",
@@ -10809,7 +11218,8 @@
         "Beach",
         "Vegetable"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Combustion engine",
@@ -10834,7 +11244,8 @@
         "Explosion",
         "Steam engine"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Computer mouse",
@@ -10847,7 +11258,8 @@
         "Computer",
         "Animal"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Container",
@@ -10876,7 +11288,8 @@
         "Philosophy",
         "Bucket"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Cook",
@@ -10897,7 +11310,8 @@
         "Human",
         "Nuts"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Coral",
@@ -10926,7 +11340,8 @@
         "Bone",
         "Ocean"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Cyclist",
@@ -10939,7 +11354,8 @@
         "Human",
         "Bicycle"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Diamond",
@@ -10948,7 +11364,8 @@
         "Coal",
         "Pressure"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Doctor",
@@ -10961,7 +11378,8 @@
         "Human",
         "Stethoscope"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Doge",
@@ -10974,7 +11392,8 @@
         "Dog",
         "Computer"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Doghouse",
@@ -11003,7 +11422,8 @@
         "Husky",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Drone",
@@ -11024,7 +11444,8 @@
         "Robot",
         "Seaplane"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Dry ice",
@@ -11037,7 +11458,8 @@
         "Carbon dioxide",
         "Ice"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Duckling",
@@ -11046,7 +11468,8 @@
         "Egg",
         "Duck"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Engineer",
@@ -11059,7 +11482,8 @@
         "Human",
         "Steam engine"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Fairy tale",
@@ -11092,7 +11516,8 @@
         "Story",
         "Elf"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Faun",
@@ -11129,7 +11554,8 @@
         "Magic",
         "Mountain goat"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Fire extinguisher",
@@ -11154,7 +11580,8 @@
         "Carbon dioxide",
         "Boiler"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Forest",
@@ -11175,7 +11602,8 @@
         "Tree",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Fox",
@@ -11204,7 +11632,8 @@
         "Chicken coop",
         "Dog"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Fruit",
@@ -11233,7 +11662,8 @@
         "Farmer",
         "Orchard"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Gardener",
@@ -11246,7 +11676,8 @@
         "Farmer",
         "Garden"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Gnome",
@@ -11267,7 +11698,8 @@
         "Garden",
         "Fairy tale"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Golem",
@@ -11292,7 +11724,8 @@
         "Statue",
         "Legend"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Hail",
@@ -11321,7 +11754,8 @@
         "Ice",
         "Sky"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Harp",
@@ -11342,7 +11776,8 @@
         "Wire",
         "Music"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Hay",
@@ -11387,7 +11822,8 @@
         "Pitchfork",
         "Farmer"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Helicopter",
@@ -11416,7 +11852,8 @@
         "Seaplane",
         "Wind turbine"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Husky",
@@ -11445,7 +11882,8 @@
         "Dog",
         "Glacier"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Internet",
@@ -11466,7 +11904,8 @@
         "Computer",
         "Net"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Jack-o'-lantern",
@@ -11507,7 +11946,8 @@
         "Vegetable",
         "Night"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Juice",
@@ -11556,7 +11996,8 @@
         "Vegetable",
         "Water"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Kaiju",
@@ -11585,7 +12026,8 @@
         "Monster",
         "Skyscraper"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Lasso",
@@ -11614,7 +12056,8 @@
         "Rope",
         "Goat"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Lawn",
@@ -11635,7 +12078,8 @@
         "Field",
         "Lawn mower"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Lawn mower",
@@ -11676,7 +12120,8 @@
         "Helicopter",
         "Field"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Leaf",
@@ -11697,7 +12142,8 @@
         "Forest",
         "Wind"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Legend",
@@ -11726,7 +12172,8 @@
         "Fairy tale",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Lumberjack",
@@ -11747,7 +12194,8 @@
         "Human",
         "Tree"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Manatee",
@@ -11772,7 +12220,8 @@
         "Cow",
         "River"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Milk",
@@ -11809,7 +12258,8 @@
         "Goat",
         "Liquid"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Minotaur",
@@ -11834,7 +12284,8 @@
         "Cow",
         "Monster"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Mold",
@@ -11863,7 +12314,8 @@
         "Vegetable",
         "Bacteria"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Monkey",
@@ -11872,7 +12324,8 @@
         "Animal",
         "Tree"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Mountain goat",
@@ -11885,7 +12338,8 @@
         "Goat",
         "Mountain range"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Narwhal",
@@ -11918,7 +12372,8 @@
         "Unicorn",
         "Flying fish"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Nessie",
@@ -11939,7 +12394,8 @@
         "Dinosaur",
         "Story"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Net",
@@ -11964,7 +12420,8 @@
         "Flying fish",
         "Rope"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Nuts",
@@ -11981,7 +12438,8 @@
         "Tree",
         "Domestication"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Oil",
@@ -12002,7 +12460,8 @@
         "Sunflower",
         "Windmill"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Ore",
@@ -12031,7 +12490,8 @@
         "Hammer",
         "Mountain"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Paleontologist",
@@ -12052,7 +12512,8 @@
         "Science",
         "Fossil"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Palm",
@@ -12069,7 +12530,8 @@
         "Tree",
         "Sand"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Parachute",
@@ -12098,7 +12560,8 @@
         "Umbrella",
         "Atmosphere"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Parrot",
@@ -12119,7 +12582,8 @@
         "Pigeon",
         "Pirate ship"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Peat",
@@ -12140,7 +12604,8 @@
         "Time",
         "Grass"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Perfume",
@@ -12181,7 +12646,8 @@
         "Sunflower",
         "Alcohol"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Petroleum",
@@ -12202,7 +12668,8 @@
         "Fossil",
         "Water"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Pilot",
@@ -12215,7 +12682,8 @@
         "Human",
         "Seaplane"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Pipe",
@@ -12228,7 +12696,8 @@
         "Tobacco",
         "Tool"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Pirate ship",
@@ -12253,7 +12722,8 @@
         "Pirate",
         "House"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Polar bear",
@@ -12266,7 +12736,8 @@
         "Animal",
         "Arctic"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Potato",
@@ -12275,7 +12746,8 @@
         "Earth",
         "Vegetable"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Pterodactyl",
@@ -12304,7 +12776,8 @@
         "Dinosaur",
         "Airplane"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Pumpkin",
@@ -12325,7 +12798,8 @@
         "Plant",
         "Jack-o'-lantern"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Quicksilver",
@@ -12334,7 +12808,8 @@
         "Metal",
         "Liquid"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Rabbit",
@@ -12347,7 +12822,8 @@
         "Rabbit",
         "Rabbit"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Rivulet",
@@ -12360,7 +12836,8 @@
         "Puddle",
         "Motion"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Sand castle",
@@ -12381,7 +12858,8 @@
         "Castle",
         "Dune"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Sap",
@@ -12390,7 +12868,8 @@
         "Tree",
         "Blade"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Saturn",
@@ -12403,7 +12882,8 @@
         "Jupiter",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Scalpel",
@@ -12432,7 +12912,8 @@
         "Sword",
         "Ambulance"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Scythe",
@@ -12461,7 +12942,8 @@
         "Axe",
         "Wheat"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Seal",
@@ -12486,7 +12968,8 @@
         "Dog",
         "Lake"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Seaplane",
@@ -12507,7 +12990,8 @@
         "Airplane",
         "Lake"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Seed",
@@ -12524,7 +13008,8 @@
         "Time",
         "Flower"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Skateboard",
@@ -12541,7 +13026,8 @@
         "Wheel",
         "Ski goggles"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Small",
@@ -12594,7 +13080,8 @@
         "Philosophy",
         "Seahorse"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Snowboarder",
@@ -12603,7 +13090,8 @@
         "Human",
         "Snowboard"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Soda",
@@ -12620,7 +13108,8 @@
         "Carbon dioxide",
         "Tea"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Sphinx",
@@ -12641,7 +13130,8 @@
         "Lion",
         "Stone"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Statue",
@@ -12782,7 +13272,8 @@
         "Cockatrice",
         "Mirror"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Steam engine",
@@ -12799,7 +13290,8 @@
         "Boiler",
         "Wheel"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Steel",
@@ -12820,7 +13312,8 @@
         "Metal",
         "Ash"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Stream",
@@ -12837,7 +13330,8 @@
         "River",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Sushi",
@@ -12850,7 +13344,8 @@
         "Caviar",
         "Seaweed"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Swamp",
@@ -12887,7 +13382,8 @@
         "Reed",
         "Mud"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "The one ring",
@@ -12900,7 +13396,8 @@
         "Ring",
         "Magic"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Thread",
@@ -12921,7 +13418,8 @@
         "Cotton",
         "Machine"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Treehouse",
@@ -12934,7 +13432,8 @@
         "Tree",
         "Wood"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Trojan horse",
@@ -12951,7 +13450,8 @@
         "Horse",
         "Statue"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Tunnel",
@@ -12992,7 +13492,8 @@
         "Cave",
         "Hill"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Tyrannosaurus rex",
@@ -13009,7 +13510,8 @@
         "Dinosaur",
         "Monarch"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Vase",
@@ -13046,7 +13548,8 @@
         "Bottle",
         "Rose"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Water lily",
@@ -13067,7 +13570,8 @@
         "Flower",
         "Stream"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Wheat",
@@ -13084,7 +13588,8 @@
         "Grass",
         "Field"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Wood",
@@ -13137,7 +13642,8 @@
         "Forest",
         "Paul bunyan"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Woodpecker",
@@ -13154,7 +13660,8 @@
         "Bird",
         "Forest"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Wool",
@@ -13171,7 +13678,8 @@
         "Sheep",
         "Blade"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Yeti",
@@ -13224,7 +13732,8 @@
         "Monster",
         "Antarctica"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Zoo",
@@ -13237,7 +13746,8 @@
         "Animal",
         "Cage"
       ]
-    ]
+    ],
+    "Tier": 10
   },
   {
     "Output": "Alcohol",
@@ -13258,7 +13768,8 @@
         "Fruit",
         "Sun"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Ambulance",
@@ -13271,7 +13782,8 @@
         "Car",
         "Doctor"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Ant farm",
@@ -13296,7 +13808,8 @@
         "Anthill",
         "Jar"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Anthill",
@@ -13325,7 +13838,8 @@
         "Ant",
         "Soil"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Arrow",
@@ -13338,7 +13852,8 @@
         "Wood",
         "Bow"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Aviary",
@@ -13347,7 +13862,8 @@
         "Big",
         "Birdcage"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Axe",
@@ -13372,7 +13888,8 @@
         "Tool",
         "Paul bunyan"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Banana",
@@ -13381,7 +13898,8 @@
         "Fruit",
         "Monkey"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Beehive",
@@ -13410,7 +13928,8 @@
         "Container",
         "Bee"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Beekeeper",
@@ -13431,7 +13950,8 @@
         "Farmer",
         "Bee"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Blood bag",
@@ -13448,7 +13968,8 @@
         "Blood",
         "Bottle"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Boat",
@@ -13473,7 +13994,8 @@
         "Wood",
         "River"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Book",
@@ -13506,7 +14028,8 @@
         "Container",
         "Idea"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Bottle",
@@ -13559,7 +14082,8 @@
         "Container",
         "Liquid"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Boulder",
@@ -13588,7 +14112,8 @@
         "Rock",
         "Earth"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Bow",
@@ -13609,7 +14134,8 @@
         "Tool",
         "Cupid"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Broom",
@@ -13622,7 +14148,8 @@
         "Tool",
         "Baba yaga"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Bucket",
@@ -13655,7 +14182,8 @@
         "Chicken wing",
         "Box"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Bus",
@@ -13676,7 +14204,8 @@
         "Car",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Butter",
@@ -13697,7 +14226,8 @@
         "Milk",
         "Tool"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Butterfly net",
@@ -13710,7 +14240,8 @@
         "Bee",
         "Net"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Campfire",
@@ -13719,7 +14250,8 @@
         "Fire",
         "Wood"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Cart",
@@ -13728,7 +14260,8 @@
         "Wheel",
         "Wood"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Cashmere",
@@ -13753,7 +14286,8 @@
         "Mountain goat",
         "Wool"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Cereal",
@@ -13770,7 +14304,8 @@
         "Wheat",
         "Coconut milk"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Chainsaw",
@@ -13795,7 +14330,8 @@
         "Lumberjack",
         "Electricity"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Cheese",
@@ -13816,7 +14352,8 @@
         "Milk",
         "Bacteria"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Christmas stocking",
@@ -13837,7 +14374,8 @@
         "Santa",
         "Wool"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Closet",
@@ -13862,7 +14400,8 @@
         "Container",
         "Vacuum cleaner"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Coconut milk",
@@ -13891,7 +14430,8 @@
         "Coconut",
         "Axe"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Coffin",
@@ -13908,7 +14448,8 @@
         "Container",
         "Vampire"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Cutting board",
@@ -13917,7 +14458,8 @@
         "Wood",
         "Cook"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Drum",
@@ -13934,7 +14476,8 @@
         "Wood",
         "Music"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Electric car",
@@ -13963,7 +14506,8 @@
         "Solar cell",
         "Wagon"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Fabric",
@@ -13980,7 +14524,8 @@
         "Thread",
         "Wheel"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Fireplace",
@@ -14005,7 +14550,8 @@
         "Wood",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Firetruck",
@@ -14034,7 +14580,8 @@
         "Fire extinguisher",
         "Wagon"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Flour",
@@ -14059,7 +14606,8 @@
         "Wheat",
         "Rock"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Flute",
@@ -14072,7 +14620,8 @@
         "Wood",
         "Air"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Fountain",
@@ -14085,7 +14634,8 @@
         "Statue",
         "Stream"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "French fries",
@@ -14102,7 +14652,8 @@
         "Fire",
         "Potato"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Fruit tree",
@@ -14119,7 +14670,8 @@
         "Fruit",
         "Wood"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Garage",
@@ -14284,7 +14836,8 @@
         "Ice cream truck",
         "Barn"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Grim reaper",
@@ -14317,7 +14870,8 @@
         "Scythe",
         "Deity"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Gust",
@@ -14330,7 +14884,8 @@
         "Air",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Hay bale",
@@ -14351,7 +14906,8 @@
         "Hay",
         "Machine"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Hill",
@@ -14376,7 +14932,8 @@
         "Mountain",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Honey",
@@ -14401,7 +14958,8 @@
         "Beehive",
         "Beekeeper"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Ice cream",
@@ -14418,7 +14976,8 @@
         "Milk",
         "Snow"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Ice sculpture",
@@ -14427,7 +14986,8 @@
         "Ice",
         "Statue"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Jam",
@@ -14452,7 +15012,8 @@
         "Fruit",
         "Heat"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Knife",
@@ -14465,7 +15026,8 @@
         "Sword",
         "Cook"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Laptop",
@@ -14474,7 +15036,8 @@
         "Computer",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Little alchemy (element)",
@@ -14483,7 +15046,8 @@
         "Small",
         "Alchemist"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Log cabin",
@@ -14492,7 +15056,8 @@
         "Wood",
         "House"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Maple syrup",
@@ -14505,7 +15070,8 @@
         "Sap",
         "Sugar"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Mayonnaise",
@@ -14514,7 +15080,8 @@
         "Egg",
         "Oil"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Moon rover",
@@ -14527,7 +15094,8 @@
         "Moon",
         "Electric car"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Motorcycle",
@@ -14552,7 +15120,8 @@
         "Bicycle",
         "Combustion engine"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Needle",
@@ -14569,7 +15138,8 @@
         "Thread",
         "Tool"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Paper",
@@ -14590,7 +15160,8 @@
         "Wood",
         "Machine"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Peanut butter",
@@ -14603,7 +15174,8 @@
         "Nuts",
         "Pressure"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Pebble",
@@ -14620,7 +15192,8 @@
         "Small",
         "Rock"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Pencil",
@@ -14633,7 +15206,8 @@
         "Wood",
         "Charcoal"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Penicillin",
@@ -14654,7 +15228,8 @@
         "Mold",
         "Hospital"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Pinocchio",
@@ -14671,7 +15246,8 @@
         "Golem",
         "Story"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Pitchfork",
@@ -14692,7 +15268,8 @@
         "Tool",
         "Demon"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Popsicle",
@@ -14713,7 +15290,8 @@
         "Juice",
         "Wood"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Quicksand",
@@ -14722,7 +15300,8 @@
         "Sand",
         "Swamp"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Rainforest",
@@ -14731,7 +15310,8 @@
         "Rain",
         "Forest"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Rat",
@@ -14768,7 +15348,8 @@
         "Mouse",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Reindeer",
@@ -14793,7 +15374,8 @@
         "Animal",
         "Christmas stocking"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Restaurant",
@@ -14802,7 +15384,8 @@
         "House",
         "Cook"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Roller coaster",
@@ -14823,7 +15406,8 @@
         "Park",
         "Wagon"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Rv",
@@ -14836,7 +15420,8 @@
         "House",
         "Bus"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Sack",
@@ -14853,7 +15438,8 @@
         "Container",
         "Letter"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Santa",
@@ -14882,7 +15468,8 @@
         "Christmas stocking",
         "Story"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Scarecrow",
@@ -14919,7 +15506,8 @@
         "Jack-o'-lantern",
         "Sack"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Scuba tank",
@@ -14936,7 +15524,8 @@
         "Container",
         "Oxygen"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Sewing machine",
@@ -14965,7 +15554,8 @@
         "Thread",
         "Robot"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Shovel",
@@ -14974,7 +15564,8 @@
         "Tool",
         "Gardener"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Silo",
@@ -15007,7 +15598,8 @@
         "Wheat",
         "Bank"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Smoothie",
@@ -15024,7 +15616,8 @@
         "Fruit",
         "Cold"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Snowmobile",
@@ -15053,7 +15646,8 @@
         "Ice",
         "Car"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Soap",
@@ -15078,7 +15672,8 @@
         "Wax",
         "Clay"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Spider",
@@ -15095,7 +15690,8 @@
         "Animal",
         "Net"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Squirrel",
@@ -15116,7 +15712,8 @@
         "Animal",
         "Nuts"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Steamboat",
@@ -15141,7 +15738,8 @@
         "Steam engine",
         "Sea"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Steel wool",
@@ -15158,7 +15756,8 @@
         "Wool",
         "Wire"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Sugar",
@@ -15203,7 +15802,8 @@
         "Wine",
         "Energy"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Sweater",
@@ -15216,7 +15816,8 @@
         "Wool",
         "Human"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Tailor",
@@ -15233,7 +15834,8 @@
         "Human",
         "Thread"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Tank",
@@ -15254,7 +15856,8 @@
         "Car",
         "Steel"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Tea",
@@ -15271,7 +15874,8 @@
         "Leaf",
         "Heat"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Thermometer",
@@ -15288,7 +15892,8 @@
         "Quicksilver",
         "Engineer"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Titanic",
@@ -15309,7 +15914,8 @@
         "Steamboat",
         "Legend"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Tractor",
@@ -15338,7 +15944,8 @@
         "Wagon",
         "Cow"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Train",
@@ -15359,7 +15966,8 @@
         "Steam engine",
         "Wagon"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Vault",
@@ -15368,7 +15976,8 @@
         "Safe",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Water pipe",
@@ -15377,7 +15986,8 @@
         "Water",
         "Pipe"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Witch",
@@ -15414,7 +16024,8 @@
         "Cauldron",
         "Legend"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Yogurt",
@@ -15427,7 +16038,8 @@
         "Bacteria",
         "Ice cream"
       ]
-    ]
+    ],
+    "Tier": 11
   },
   {
     "Output": "Apron",
@@ -15440,7 +16052,8 @@
         "Fabric",
         "Baker"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Armor",
@@ -15453,7 +16066,8 @@
         "Steel",
         "Fabric"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Bandage",
@@ -15470,7 +16084,8 @@
         "Fabric",
         "Blade"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Batter",
@@ -15483,7 +16098,8 @@
         "Coconut milk",
         "Flour"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Bbq",
@@ -15508,7 +16124,8 @@
         "Campfire",
         "Meat"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Beer",
@@ -15517,7 +16134,8 @@
         "Alcohol",
         "Wheat"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Box",
@@ -15550,7 +16168,8 @@
         "Container",
         "Crayon"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Candy cane",
@@ -15571,7 +16190,8 @@
         "Sugar",
         "Reindeer"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Canvas",
@@ -15580,7 +16200,8 @@
         "Fabric",
         "Paint"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Caramel",
@@ -15589,7 +16210,8 @@
         "Sugar",
         "Heat"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Chocolate",
@@ -15610,7 +16232,8 @@
         "Sugar",
         "Seed"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Cigarette",
@@ -15619,7 +16242,8 @@
         "Tobacco",
         "Paper"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Confetti",
@@ -15632,7 +16256,8 @@
         "Paper",
         "Blade"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Cookbook",
@@ -15645,7 +16270,8 @@
         "Book",
         "Cook"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Cotton candy",
@@ -15662,7 +16288,8 @@
         "Sugar",
         "Cloud"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Crayon",
@@ -15691,7 +16318,8 @@
         "Wax",
         "Paint"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Cup",
@@ -15720,7 +16348,8 @@
         "Bottle",
         "Milk shake"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Diver",
@@ -15745,7 +16374,8 @@
         "Scuba tank",
         "Lake"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Dough",
@@ -15762,7 +16392,8 @@
         "Flour",
         "Rain"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Drunk",
@@ -15779,7 +16410,8 @@
         "Human",
         "Wine"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Excavator",
@@ -15792,7 +16424,8 @@
         "Shovel",
         "Car"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Flying squirrel",
@@ -15829,7 +16462,8 @@
         "Squirrel",
         "Helicopter"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Fork",
@@ -15838,7 +16472,8 @@
         "Pitchfork",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Frozen yogurt",
@@ -15851,7 +16486,8 @@
         "Yogurt",
         "Ice"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Gift",
@@ -15896,7 +16532,8 @@
         "Fireplace",
         "Wrapping paper"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Hamburger",
@@ -15909,7 +16546,8 @@
         "Meat",
         "Cheese"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Hamster",
@@ -15930,7 +16568,8 @@
         "Rat",
         "Domestication"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Hedgehog",
@@ -15947,7 +16586,8 @@
         "Rat",
         "Needle"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Ice cream truck",
@@ -15964,7 +16604,8 @@
         "Ice cream",
         "Wagon"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Iced tea",
@@ -15977,7 +16618,8 @@
         "Tea",
         "Cold"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Jar",
@@ -15998,7 +16640,8 @@
         "Jam",
         "Bucket"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Kite",
@@ -16015,7 +16658,8 @@
         "Paper",
         "Air"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Letter",
@@ -16024,7 +16668,8 @@
         "Paper",
         "Pencil"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Library",
@@ -16037,7 +16682,8 @@
         "Book",
         "House"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Map",
@@ -16086,7 +16732,8 @@
         "Paper",
         "Village"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Marshmallows",
@@ -16095,7 +16742,8 @@
         "Sugar",
         "Campfire"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Milk shake",
@@ -16112,7 +16760,8 @@
         "Ice cream",
         "Water"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Money",
@@ -16129,7 +16778,8 @@
         "Paper",
         "Bank"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Mouse",
@@ -16154,7 +16804,8 @@
         "Cheese",
         "Wall"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Mousetrap",
@@ -16175,7 +16826,8 @@
         "Mouse",
         "Blade"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Musician",
@@ -16200,7 +16852,8 @@
         "Human",
         "Pan flute"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Newspaper",
@@ -16217,7 +16870,8 @@
         "Letter",
         "Letter"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Orchard",
@@ -16250,7 +16904,8 @@
         "Fruit tree",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Origami",
@@ -16319,7 +16974,8 @@
         "Paper",
         "Vulture"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Pan flute",
@@ -16328,7 +16984,8 @@
         "Flute",
         "Flute"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Paper airplane",
@@ -16337,7 +16994,8 @@
         "Airplane",
         "Paper"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Pasta",
@@ -16346,7 +17004,8 @@
         "Flour",
         "Egg"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Pencil sharpener",
@@ -16363,7 +17022,8 @@
         "Pencil",
         "Sword"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Pizza",
@@ -16380,7 +17040,8 @@
         "Cheese",
         "Wheel"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Printer",
@@ -16393,7 +17054,8 @@
         "Computer",
         "Newspaper"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Recipe",
@@ -16450,7 +17112,8 @@
         "Newspaper",
         "Fruit"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Robot vacuum",
@@ -16471,7 +17134,8 @@
         "Computer",
         "Broom"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Rock",
@@ -16488,7 +17152,8 @@
         "Boulder",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Ruler",
@@ -16497,7 +17162,8 @@
         "Wood",
         "Pencil"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Sailboat",
@@ -16518,7 +17184,8 @@
         "Steamboat",
         "Fabric"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Sandpaper",
@@ -16531,7 +17198,8 @@
         "Sand",
         "Fabric"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Sleigh",
@@ -16568,7 +17236,8 @@
         "Wagon",
         "Antarctica"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Smoke signal",
@@ -16585,7 +17254,8 @@
         "Smoke",
         "Letter"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Spoon",
@@ -16594,7 +17264,8 @@
         "Shovel",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Sprinkles",
@@ -16615,7 +17286,8 @@
         "Sugar",
         "Double rainbow!"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Syringe",
@@ -16628,7 +17300,8 @@
         "Tool",
         "Needle"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Tablet",
@@ -16637,7 +17310,8 @@
         "Laptop",
         "Small"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Tent",
@@ -16658,7 +17332,8 @@
         "Fabric",
         "Wall"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Trainyard",
@@ -16679,7 +17354,8 @@
         "Train",
         "Garage"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Vacuum cleaner",
@@ -16692,7 +17368,8 @@
         "Broom",
         "Machine"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Vine",
@@ -16709,7 +17386,8 @@
         "Rainforest",
         "Wire"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Wagon",
@@ -16734,7 +17412,8 @@
         "Cart",
         "Cow"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Wax",
@@ -16763,7 +17442,8 @@
         "Beehive",
         "Beekeeper"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Web",
@@ -16784,7 +17464,8 @@
         "Spider",
         "Net"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Wine",
@@ -16801,7 +17482,8 @@
         "Tool",
         "Dionysus"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Wrapping paper",
@@ -16822,7 +17504,8 @@
         "Paper",
         "Santa"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Writer",
@@ -16835,7 +17518,8 @@
         "Human",
         "Pencil"
       ]
-    ]
+    ],
+    "Tier": 12
   },
   {
     "Output": "Armadillo",
@@ -16852,7 +17536,8 @@
         "Armor",
         "Cat"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Baker",
@@ -16901,7 +17586,8 @@
         "Human",
         "Dough"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Banana bread",
@@ -16914,7 +17600,8 @@
         "Dough",
         "Banana"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Barrel",
@@ -16927,7 +17614,8 @@
         "Wine",
         "Wood"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Bat",
@@ -16952,7 +17640,8 @@
         "Mouse",
         "Atmosphere"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Bread",
@@ -16965,7 +17654,8 @@
         "Dough",
         "Energy"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Bulletproof vest",
@@ -16978,7 +17668,8 @@
         "Gun",
         "Armor"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Candle",
@@ -17003,7 +17694,8 @@
         "Wax",
         "Lamp"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Cheeseburger",
@@ -17016,7 +17708,8 @@
         "Cheese",
         "Sandwich"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Chocolate milk",
@@ -17029,7 +17722,8 @@
         "Chocolate",
         "Coconut milk"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Circus",
@@ -17042,7 +17736,8 @@
         "Tent",
         "Animal"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Cookie cutter",
@@ -17055,7 +17750,8 @@
         "Blade",
         "Cookie dough"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Cookie dough",
@@ -17072,7 +17768,8 @@
         "Dough",
         "Chocolate"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Donut",
@@ -17093,7 +17790,8 @@
         "Cookie dough",
         "Wheel"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Email",
@@ -17114,7 +17812,8 @@
         "Letter",
         "Electricity"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Gingerbread house",
@@ -17143,7 +17842,8 @@
         "House",
         "Cake"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Gingerbread man",
@@ -17184,7 +17884,8 @@
         "Cookie dough",
         "Story"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Hot chocolate",
@@ -17197,7 +17898,8 @@
         "Chocolate",
         "Heat"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Librarian",
@@ -17206,7 +17908,8 @@
         "Human",
         "Library"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Mac and cheese",
@@ -17215,7 +17918,8 @@
         "Cheese",
         "Pasta"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Mail truck",
@@ -17232,7 +17936,8 @@
         "Car",
         "Post office"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Mailbox",
@@ -17269,7 +17974,8 @@
         "Mailman",
         "Wood"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Mailman",
@@ -17286,7 +17992,8 @@
         "Letter",
         "Mailbox"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Music",
@@ -17307,7 +18014,8 @@
         "Musician",
         "Pan flute"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Painting",
@@ -17320,7 +18028,8 @@
         "Canvas",
         "Painter"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Paper cup",
@@ -17329,7 +18038,8 @@
         "Cup",
         "Paper"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Paraglider",
@@ -17338,7 +18048,8 @@
         "Kite",
         "Big"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Pie",
@@ -17363,7 +18074,8 @@
         "Fruit",
         "Bakery"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Post office",
@@ -17396,7 +18108,8 @@
         "Letter",
         "Wall"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Smartphone",
@@ -17405,7 +18118,8 @@
         "Small",
         "Tablet"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Spaghetti",
@@ -17422,7 +18136,8 @@
         "Pasta",
         "Rope"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "String phone",
@@ -17443,7 +18158,8 @@
         "Cup",
         "Thread"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Treasure map",
@@ -17464,7 +18180,8 @@
         "Map",
         "Island"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Vinegar",
@@ -17481,7 +18198,8 @@
         "Wine",
         "Oxygen"
       ]
-    ]
+    ],
+    "Tier": 13
   },
   {
     "Output": "Bakery",
@@ -17538,7 +18256,8 @@
         "Baker",
         "Container"
       ]
-    ]
+    ],
+    "Tier": 14
   },
   {
     "Output": "Cake",
@@ -17555,7 +18274,8 @@
         "Bread",
         "Sugar"
       ]
-    ]
+    ],
+    "Tier": 14
   },
   {
     "Output": "Cookie",
@@ -17580,7 +18300,8 @@
         "Dough",
         "Cookie cutter"
       ]
-    ]
+    ],
+    "Tier": 14
   },
   {
     "Output": "Fortune cookie",
@@ -17597,7 +18318,8 @@
         "Paper",
         "Gingerbread man"
       ]
-    ]
+    ],
+    "Tier": 14
   },
   {
     "Output": "Sandwich",
@@ -17622,7 +18344,8 @@
         "Bread",
         "Vegetable"
       ]
-    ]
+    ],
+    "Tier": 14
   },
   {
     "Output": "Sheet music",
@@ -17635,7 +18358,8 @@
         "Music",
         "Book"
       ]
-    ]
+    ],
+    "Tier": 14
   },
   {
     "Output": "Toast",
@@ -17648,7 +18372,8 @@
         "Bread",
         "Fire"
       ]
-    ]
+    ],
+    "Tier": 14
   },
   {
     "Output": "Treasure",
@@ -17669,7 +18394,8 @@
         "Treasure map",
         "Sailor"
       ]
-    ]
+    ],
+    "Tier": 14
   },
   {
     "Output": "Grilled cheese",
@@ -17678,7 +18404,8 @@
         "Cheese",
         "Toast"
       ]
-    ]
+    ],
+    "Tier": 15
   },
   {
     "Output": "Picnic",
@@ -17703,6 +18430,7 @@
         "Sandwich",
         "Fabric"
       ]
-    ]
+    ],
+    "Tier": 15
   }
 ]

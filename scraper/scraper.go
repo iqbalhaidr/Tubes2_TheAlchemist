@@ -14,6 +14,7 @@ import (
 type Recipe struct {
 	Output string     `json:"Output"`
 	Inputs [][]string `json:"Inputs"`
+	Tier   int        `json:"Tier"`
 }
 
 func Scrape() {
@@ -31,35 +32,40 @@ func Scrape() {
 	}
 
 	var results []Recipe
+	var tierCtr int = -2
 
-	doc.Find("table.list-table tr").Each(func(i int, s *goquery.Selection) {
-		tds := s.Find("td")
-		if tds.Length() >= 2 {
-			aTags := tds.Eq(0).Find("a")
-			if aTags.Length() < 2 {
-				return
-			}
-			elementHasil := strings.TrimSpace(aTags.Eq(1).Text())
-
-			var elementBahan [][]string
-			tds.Eq(1).Find("li").Each(func(j int, li *goquery.Selection) {
-				aFromLi := li.Find("a")
-				if aFromLi.Length() >= 4 {
-					combo := []string{
-						strings.TrimSpace(aFromLi.Eq(1).Text()),
-						strings.TrimSpace(aFromLi.Eq(3).Text()),
-					}
-					elementBahan = append(elementBahan, combo)
+	doc.Find("table.list-table").Each(func(i int, table *goquery.Selection) {
+		tierCtr++
+		table.Find("tr").Each(func(j int, s *goquery.Selection) {
+			tds := s.Find("td")
+			if tds.Length() >= 2 {
+				aTags := tds.Eq(0).Find("a")
+				if aTags.Length() < 2 {
+					return
 				}
-			})
+				elementHasil := strings.TrimSpace(aTags.Eq(1).Text())
 
-			if elementHasil != "" && len(elementBahan) > 0 {
-				results = append(results, Recipe{
-					Output: elementHasil,
-					Inputs: elementBahan,
+				var elementBahan [][]string
+				tds.Eq(1).Find("li").Each(func(j int, li *goquery.Selection) {
+					aFromLi := li.Find("a")
+					if aFromLi.Length() >= 4 {
+						combo := []string{
+							strings.TrimSpace(aFromLi.Eq(1).Text()),
+							strings.TrimSpace(aFromLi.Eq(3).Text()),
+						}
+						elementBahan = append(elementBahan, combo)
+					}
 				})
+
+				if elementHasil != "" && len(elementBahan) > 0 {
+					results = append(results, Recipe{
+						Output: elementHasil,
+						Inputs: elementBahan,
+						Tier:   tierCtr,
+					})
+				}
 			}
-		}
+		})
 	})
 
 	// Simpan ke file JSON
@@ -80,3 +86,14 @@ func Scrape() {
 
 	fmt.Println("Scraping selesai! Data disimpan ke ./data/recipe.json")
 }
+
+// package main
+
+// import "littlealchemy/scraper"
+
+// // import "littlealchemy/scraper"
+
+// func main() {
+// 	scraper.Scrape()
+// 	// scraper.Scrape() Scrape the web and save it to ./data/recipes.json
+// }

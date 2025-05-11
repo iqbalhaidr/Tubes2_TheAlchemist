@@ -1,0 +1,105 @@
+{
+  "Element": "Airplane",
+  "Method": "DFS",
+  "isFound": true,
+  "NodeCountElement": 39,
+  "NodeCountRecipe": 19,
+  "SearchTimeInMiliseconds": 0,
+  "Steps": [
+    [
+      "Earth",
+      "Fire",
+      "Lava"
+    ],
+    [
+      "Water",
+      "Water",
+      "Puddle"
+    ],
+    [
+      "Puddle",
+      "Puddle",
+      "Pond"
+    ],
+    [
+      "Pond",
+      "Water",
+      "Lake"
+    ],
+    [
+      "Lake",
+      "Lake",
+      "Sea"
+    ],
+    [
+      "Lava",
+      "Sea",
+      "Primordial soup"
+    ],
+    [
+      "Primordial soup",
+      "Time",
+      "Life"
+    ],
+    [
+      "Earth",
+      "Earth",
+      "Land"
+    ],
+    [
+      "Life",
+      "Land",
+      "Animal"
+    ],
+    [
+      "Land",
+      "Land",
+      "Continent"
+    ],
+    [
+      "Continent",
+      "Continent",
+      "Planet"
+    ],
+    [
+      "Planet",
+      "Fire",
+      "Sun"
+    ],
+    [
+      "Air",
+      "Planet",
+      "Atmosphere"
+    ],
+    [
+      "Sun",
+      "Atmosphere",
+      "Sky"
+    ],
+    [
+      "Animal",
+      "Sky",
+      "Bird"
+    ],
+    [
+      "Air",
+      "Air",
+      "Pressure"
+    ],
+    [
+      "Earth",
+      "Pressure",
+      "Stone"
+    ],
+    [
+      "Stone",
+      "Fire",
+      "Metal"
+    ],
+    [
+      "Bird",
+      "Metal",
+      "Airplane"
+    ]
+  ]
+}
