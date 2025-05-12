@@ -50,58 +50,167 @@ function App() {
           // Penyesuaian Format Backend ke FrontEnd
           let searchTime = responseDataJson.SearchTimeInMiliseconds || 0;
           let nodesVisited = (responseDataJson.NodeCountElement || 0) + (responseDataJson.NodeCountRecipe || 0);
-          let recipes = [];
+          //let recipes = [];
 
+          let nodes = [];
+          let edges = [];
+          
           if (responseDataJson.isFound !== undefined) {
-            // Single Recipe / Resep Terpendek
+            // Resep Terpendek
             const steps = responseDataJson.Steps || [];
-            for (let i = 0; i < steps.length; i++) {
-                
-                const s = steps[i];
-                recipes.push(
-                    { id: i * 3 + 1, label: s[0]},
-                    { id: i * 3 + 2, label: s[1]},
-                    {from: i * 3 + 1, to: i * 3 + 3 },
-                    {from: i * 3 + 2, to: i * 3 + 3 },
-                    { id: i * 3 + 3, label: s[2]}
-                );
+            let idCounter = 1;
+
+            if (!steps || steps.length === 0) {
+                setRecipeResult(`Tidak ada resep yang ditemukan!`);
+                return;
             }
 
-          } else if (responseDataJson.isSatisfied !== undefined) {
-              // Multiple Recipes / Resep Terbanyak
-              const paths = responseDataJson.Steps || [];
-              for (let i = 0; i < paths.length; i++) {
-                  const pathSteps = paths[i];
-                  for (let j = 0; j < pathSteps.length; j++) {
-                      const s = pathSteps[j];
-                      recipes.push(
-                        {id: i * 100 + j * 3 + 1, label: s[0]},
-                        {id: i * 100 + j * 3 + 2, label: s[1]},
-                        {from: i * 100 + j * 3 + 1, to: i * 100 + j * 3 + 3},
-                        {from: i * 100 + j * 3 + 2, to: i * 100 + j * 3 + 3},
-                        {id: i * 100 + j * 3 + 3, label: s[2]}
-                      )
-                  }
-              }
-          }
+            for (let i = 0; i < steps.length; i++) {
+                const s = steps[i];
+
+                const id1 = idCounter++;
+                const id2 = idCounter++;
+                const idResult = idCounter++;
+
+                // Tambah Simpul/Nodes
+                nodes.push({ id: id1, label: s[0] });
+                nodes.push({ id: id2, label: s[1] });
+                nodes.push({ id: idResult, label: s[2] });
+
+                // Tambah Sisi/Edges
+                edges.push({ from: id1, to: idResult });
+                edges.push({ from: id2, to: idResult });
+
+                // Menghubungkan Simpul
+                if (i < steps.length - 1) {
+                    const nextStep = steps[i+1];
+
+                    if (nextStep[0] === s[2]) {
+                        const nextId1 = idCounter;
+                        edges.push({ from: idResult, to: nextId1 });
+                    } else if (nextStep[1] === s[2]) {
+                        const nextId2 = idCounter + 1;
+                        edges.push({ from: idResult, to: nextId2})
+                    }
+                }
+            }
+                
+           } else if (responseDataJson.isSatisfied !== undefined) {
+            // Resep Banyak/Multiple
+            const paths = responseDataJson.Steps || [];
+            let idCounter = 1;
+
+            for (let i = 0; i <paths.length; i++) {
+                const pathSteps = paths[i];
+                let pathNodes = []
+                let pathEdges = []
+
+                for (let j = 0; j < pathSteps.length; j++) {
+                    const s = pathSteps[j];
+
+                    const id1 = idCounter++;
+                    const id2 = idCounter++;
+                    const idResult = idCounter++;
+
+                    // Tambah Simpul/Nodes
+                    pathNodes.push({ id: id1, label: s[0], group: i });
+                    pathNodes.push({ id: id2, label: s[1], group: i });
+                    pathNodes.push({ id: idResult, label: s[2], group: i });
+
+                    // Tambah Sisi/Edges
+                    pathEdges.push({ from: id1, to: idResult });
+                    pathEdges.push({ from: id2, to: idResult });
+
+                    // Menghubungkan Simpul
+                    if (j < pathSteps.length - 1) {
+                        const nextStep = pathSteps[j+1];
+
+                        if (nextStep[0] === s[2]) {
+                            const nextId1 = idCounter;
+                            pathEdges.push({ from: idResult, to: nextId1 });
+                        } else if (nextStep[1] === s[2]) {
+                            const nextId2 = idCounter + 1;
+                            pathEdges.push({ from: idResult, to: nextId2})
+                        }
+                    }
+                }
+
+                nodes = nodes.concat(pathNodes);
+                edges = edges.concat(pathEdges);
+            }
+           }
+           
+        
+
+        //   if (responseDataJson.isFound !== undefined) {
+        //     // Single Recipe / Resep Terpendek
+        //     const steps = responseDataJson.Steps || [];
+        //     for (let i = 0; i < steps.length; i++) {
+                
+        //         const s = steps[i];
+        //         recipes.push(
+        //             { id: i * 3 + 1, label: s[0]},
+        //             { id: i * 3 + 2, label: s[1]},
+        //             {from: i * 3 + 1, to: i * 3 + 3 },
+        //             {from: i * 3 + 2, to: i * 3 + 3 },
+        //             { id: i * 3 + 3, label: s[2]}
+        //         );
+        //     }
+
+        //   } else if (responseDataJson.isSatisfied !== undefined) {
+        //       // Multiple Recipes / Resep Terbanyak
+        //       const paths = responseDataJson.Steps || [];
+        //       for (let i = 0; i < paths.length; i++) {
+        //           const pathSteps = paths[i];
+        //           for (let j = 0; j < pathSteps.length; j++) {
+        //               const s = pathSteps[j];
+        //               recipes.push(
+        //                 {id: i * 100 + j * 3 + 1, label: s[0]},
+        //                 {id: i * 100 + j * 3 + 2, label: s[1]},
+        //                 {from: i * 100 + j * 3 + 1, to: i * 100 + j * 3 + 3},
+        //                 {from: i * 100 + j * 3 + 2, to: i * 100 + j * 3 + 3},
+        //                 {id: i * 100 + j * 3 + 3, label: s[2]}
+        //               )
+        //           }
+        //       }
+        //   }
 
           setSearchTime(searchTime.toFixed(2) || ' N/A');
           setNodesVisited(nodesVisited || ' N/A');
-          setRecipeResult(search === 'terpendek' ? `Resep terpendek untuk ${element}` : `Ditemukan ${Math.floor(recipes.length / 5)} resep untuk ${element}`);
 
-          
-          const nodes = recipes.filter(item => item.label).map(item => ({ id: item.id, label: item.label }));
-          const edges = recipes.filter(item => item.from).map(item => ({ from: item.from, to: item.to }));
+          let recipeCount = 0;
+          if (responseDataJson.isFound !== undefined) {
+              recipeCount = 1;
+          } else if (responseDataJson.isSatisfied !== undefined) {
+              recipeCount = (responseDataJson.Steps || []).length || 0;
+          }
+          setRecipeResult(search === 'terpendek' ? `Resep terpendek untuk ${element}` : `Ditemukan ${recipeCount} resep untuk ${element}`);
+
 
           const container = document.getElementById('tree');
-          const data = { 
-            nodes, edges
-          };
+          const data = { nodes, edges };
           const options = {
-              layout: {hierarchical: { direction: 'UD', sortMethod: 'directed' }}, 
-              edges: {arrows: 'to' }
-          };
-          new Network(container, data, options);
+                layout: { 
+                    hierarchical: { 
+                        direction: 'UD', 
+                        sortMethod: 'directed' }}, 
+                edges: { arrows: 'to' },
+                nodes: {
+                    shape: 'box',
+                    font: { size: 12},
+                    color: {
+                        background: 'lightgray',
+                        border: 'black'
+                    },
+                },
+                physics: {
+                    enabled: false
+                },
+                interaction: {
+                    hover: true
+                }
+            };
+            new Network(container, data, options);
         } catch(error) {
             console.error('Error:', error);
             setRecipeResult(`Gagal mengambil resep: ${error.message}`)
