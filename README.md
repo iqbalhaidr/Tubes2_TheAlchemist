@@ -17,7 +17,8 @@ diatasnya. Algoritma ini diimplementasikan dengan memanfaatkan rekursif.
 ### Requirement
 1. OS Windows atau Linux
 2. Sudah terinstall bahasa pemrograman Go
-3. Lorem ipsum
+3. Sudah terinstall goquery
+4. Lorem ipsum
 
 ### Cara menjalankan program
 1. Clone repository
