@@ -7,21 +7,11 @@ import (
 	"strconv"
 )
 
-/*
-element = nama element yang ingin dicari resepnya
-multiple = true jika ingin mencari multiple recipe dari sebuah elemen, vice versa
-n = banyaknya resep berbeda yang ingin dicari, jika isMultiple false maka isi 1
-
-Example: http://localhost:8080/bfs?element=Gold&multiple=true&n=5
-*/
-
 func BFSHandler(w http.ResponseWriter, r *http.Request) {
-	// Ambil query parameter dari URL
 	element := r.URL.Query().Get("element")
 	multiple := r.URL.Query().Get("multiple") == "true"
 	nStr := r.URL.Query().Get("n")
 
-	// Validasi dan parsing jumlah recipe
 	n := 1
 	if multiple && nStr != "" {
 		parsed, err := strconv.Atoi(nStr)
@@ -30,24 +20,20 @@ func BFSHandler(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	// Buat path file hasil (i.e. "./data/result.json")
 	pathResult := filepath.Join("data", "result.json")
 
-	// Jalankan BFS
 	if multiple {
 		BFS(element, pathResult, true, n)
 	} else {
 		BFS(element, pathResult, false, 0)
 	}
 
-	// Baca file JSON yang dihasilkan
 	jsonBytes, err := os.ReadFile(pathResult)
 	if err != nil {
 		http.Error(w, "Gagal membaca file hasil", http.StatusInternalServerError)
 		return
 	}
 
-	// Set header dan kirim response
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(jsonBytes)
 }

@@ -44,8 +44,6 @@ func WriteData(pathResult string, elementName string, searchMethod string, isFou
 	fmt.Printf("Berhasil menyimpan hasil pencarian [%s] menggunakan metode [%s] di [%s]\n", elementName, searchMethod, pathResult)
 }
 
-/* ===================================================================================================================================================================== */
-
 type ResultFormatN struct {
 	Element                 string       `json:"Element"`
 	Method                  string       `json:"Method"`
@@ -57,9 +55,6 @@ type ResultFormatN struct {
 	TotalPathsFound         int          `json:"TotalPathsFound"`
 	Steps                   []RecipePath `json:"Steps"`
 }
-
-type RecipePath [][3]string
-type Step [3]string
 
 func WriteDataMultiplePaths(
 	pathResult string,

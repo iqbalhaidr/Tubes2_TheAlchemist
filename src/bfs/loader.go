@@ -5,14 +5,12 @@ import (
 	"os"
 )
 
-// RecipeEntry menyimpan satu resep dengan output dan bahan-bahannya
 type RecipeEntry struct {
 	Output string      `json:"Output"`
 	Inputs [][2]string `json:"Inputs"`
 	Tier   int         `json:"Tier"`
 }
 
-// LoadData membaca file JSON dan mengembalikan peta resep dan peta tier
 func LoadData(filename string) (map[string][][2]string, map[string]int, error) {
 	data, err := os.ReadFile(filename)
 	if err != nil {
