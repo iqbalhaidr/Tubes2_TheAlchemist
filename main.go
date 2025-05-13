@@ -14,7 +14,6 @@ type Message struct {
 
 // untuk cek hubungan ke Golang dari React
 
-// functions for ease
 func withCORS(w http.ResponseWriter) {
 	w.Header().Set("Access-Control-Allow-Origin", "http://localhost:3000")
 	w.Header().Set("Access-Control-Allow-Methods", "GET, OPTIONS")
@@ -54,13 +53,6 @@ func bfsWithCORS(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	/*
-		element = nama element yang ingin dicari resepnya
-		multiple = true jika ingin mencari multiple recipe dari sebuah elemen, vice versa
-		n = banyaknya resep berbeda yang ingin dicari, jika isMultiple false maka isi 1
-
-		Example: http://localhost:8080/dfs?element=Gold&multiple=true&n=5
-	*/
 
 	router := http.NewServeMux()
 

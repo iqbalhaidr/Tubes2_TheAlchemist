@@ -1,9 +1,3 @@
-// const React = require('react');
-// const { useState } = React;
-// const { Network } = require('vis-network/standalone');
-// require('vis-network/styles/vis-network.css');
-// require('./App.css');
-
 import { useState } from 'react';
 import { Network } from 'vis-network/standalone';
 import 'vis-network/styles/vis-network.css';
@@ -55,24 +49,30 @@ function App() {
           // Penyesuaian Format Backend ke FrontEnd
           let searchTime = responseDataJson.SearchTimeInMiliseconds || 0;
           let nodesVisited = (responseDataJson.NodeCountElement || 0) + (responseDataJson.NodeCountRecipe || 0);
-          //let recipes = [];
+          
 
           let nodes = [];
           let edges = [];
+          let idCounter = 1;
+          
           
           if (responseDataJson.isFound !== undefined) {
-            // Resep Terpendek
+            
+            // Satu Resep
             const steps = responseDataJson.Steps || [];
-            let idCounter = 1;
+            
 
             if (!steps || steps.length === 0) {
                 setRecipeResult(`Tidak ada resep yang ditemukan!`);
                 return;
             }
+            
+            const rootId = idCounter++;
 
+            let prevResultId = rootId;
             for (let i = 0; i < steps.length; i++) {
+                
                 const s = steps[i];
-
                 const id1 = idCounter++;
                 const id2 = idCounter++;
                 const idResult = idCounter++;
@@ -87,23 +87,35 @@ function App() {
                 edges.push({ from: id2, to: idResult });
 
                 // Menghubungkan Simpul
-                if (i < steps.length - 1) {
-                    const nextStep = steps[i+1];
-
-                    if (nextStep[0] === s[2]) {
-                        const nextId1 = idCounter;
-                        edges.push({ from: idResult, to: nextId1 });
-                    } else if (nextStep[1] === s[2]) {
-                        const nextId2 = idCounter + 1;
-                        edges.push({ from: idResult, to: nextId2})
+                if ( i === 0) {
+                    edges.push({ from: rootId , to: id1 });
+                    edges.push({ from: rootId , to: id2 });
+                } else {
+                    const prevStep = steps[i-1];
+                    if (prevStep[2] === s[0]) {
+                        edges.push({ from: prevResultId, to: id1 }); 
+                    } else if (prevStep[2] === s[1]) {
+                        edges.push({ from: prevResultId, to: id2 });
+                    } 
+                    else {
+                        edges.push({ from: rootId, to: id1 });
+                        edges.push({ from: rootId, to: id2 });
                     }
                 }
+                prevResultId = idResult;
             }
+            
                 
            } else if (responseDataJson.isSatisfied !== undefined) {
+            
             // Resep Banyak/Multiple
             const paths = responseDataJson.Steps || [];
             let idCounter = 1;
+
+            if (!paths || paths.length === 0) {
+                setRecipeResult(`Tidak ada resep yang ditemukan!`);
+                return;
+            }
 
             for (let i = 0; i <paths.length; i++) {
                 const pathSteps = paths[i];
@@ -138,6 +150,7 @@ function App() {
                             pathEdges.push({ from: idResult, to: nextId2})
                         }
                     }
+                    
                 }
 
                 nodes = nodes.concat(pathNodes);
@@ -146,39 +159,6 @@ function App() {
            }
            
         
-
-        //   if (responseDataJson.isFound !== undefined) {
-        //     // Single Recipe / Resep Terpendek
-        //     const steps = responseDataJson.Steps || [];
-        //     for (let i = 0; i < steps.length; i++) {
-                
-        //         const s = steps[i];
-        //         recipes.push(
-        //             { id: i * 3 + 1, label: s[0]},
-        //             { id: i * 3 + 2, label: s[1]},
-        //             {from: i * 3 + 1, to: i * 3 + 3 },
-        //             {from: i * 3 + 2, to: i * 3 + 3 },
-        //             { id: i * 3 + 3, label: s[2]}
-        //         );
-        //     }
-
-        //   } else if (responseDataJson.isSatisfied !== undefined) {
-        //       // Multiple Recipes / Resep Terbanyak
-        //       const paths = responseDataJson.Steps || [];
-        //       for (let i = 0; i < paths.length; i++) {
-        //           const pathSteps = paths[i];
-        //           for (let j = 0; j < pathSteps.length; j++) {
-        //               const s = pathSteps[j];
-        //               recipes.push(
-        //                 {id: i * 100 + j * 3 + 1, label: s[0]},
-        //                 {id: i * 100 + j * 3 + 2, label: s[1]},
-        //                 {from: i * 100 + j * 3 + 1, to: i * 100 + j * 3 + 3},
-        //                 {from: i * 100 + j * 3 + 2, to: i * 100 + j * 3 + 3},
-        //                 {id: i * 100 + j * 3 + 3, label: s[2]}
-        //               )
-        //           }
-        //       }
-        //   }
 
           setSearchTime(searchTime.toFixed(2) || ' N/A');
           setNodesVisited(nodesVisited || ' N/A');
@@ -198,7 +178,12 @@ function App() {
                 layout: { 
                     hierarchical: { 
                         direction: 'UD', 
-                        sortMethod: 'directed' }}, 
+                        sortMethod: 'directed',
+                        
+                        nodeSpacing: 100,
+                        levelSeparation: 50,
+                        treeSpacing: 200
+                    }}, 
                 edges: { arrows: 'to' },
                 nodes: {
                     shape: 'box',
@@ -209,7 +194,7 @@ function App() {
                     },
                 },
                 physics: {
-                    enabled: false
+                    enabled: true
                 },
                 interaction: {
                     hover: true
