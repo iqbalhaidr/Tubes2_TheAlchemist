@@ -4,8 +4,7 @@
 
 ### Penjelasan singkat algoritma yang diimplementasikan
 #### Breadth First Search (BFS)
-
-lorem ipsum
+Algoritma ini melakukan pencarian resep suatu elemen secara melebar dengan menelusuri semua simpul pada level yang sama terlebih dahulu sebelum lanjut ke level yang lebih dalam. Artinya, semua kemungkinan resep akan dicoba dari level bawah terlebih dahulu. Hal ini memastikan bahwa solusi pertama yang ditemukan adalah yang memiliki tier terendah. Algoritma ini juga dapat menemukan semua jalur pembuatan elemen karena setiap kombinasi bahan akan dievaluasi dan dikombinasikan secara eksplisit.
 
 #### Depth First Search (DFS)
 Algoritma ini melakukan pencarian resep suatu elemen dengan cara traversal setiap cabang pada simpul yang merupakan representasi alternatif resep dari suatu 
