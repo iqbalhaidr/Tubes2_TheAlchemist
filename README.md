@@ -15,18 +15,34 @@ diatasnya. Algoritma ini diimplementasikan dengan memanfaatkan rekursif.
 
 ### Requirement
 1. OS Windows atau Linux
-2. Sudah terinstall bahasa pemrograman Go
+2. Sudah terinstall bahasa pemrograman Go disarankan 1.24.3
 3. Sudah terinstall goquery
-4. Lorem ipsum
+4. Sudah terinstall Node.js disarankan v22.15.0.
 
 ### Cara menjalankan program
 1. Clone repository
    ```sh
    git clone https://github.com/iqbalhaidr/Tubes2_TheAlchemist.git
    ```
-2. Lorem ipsum
+2. Navigasi ke directory web
    ```sh
-   lorem ipsum
+   cd ./Tubes2_TheAlchemistweb/web/my-app/
+   ```
+3. Unduh semua dependency
+   ```sh
+   npm install
+   ```
+4. Jalankan server
+   ```sh
+   npm start
+   ```
+5. Buka terminal baru dan navigasi ke parent directory
+   ```sh
+   cd ./Tubes2_TheAlchemistweb/
+   ```
+6. Jalankan program main.go
+   ```sh
+   go run main.go
    ```
 
 ### Anggota Kelompok
