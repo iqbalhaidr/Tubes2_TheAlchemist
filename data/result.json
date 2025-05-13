@@ -1,139 +1,379 @@
 {
-  "Element": "Planet",
-  "Method": "BFS",
+  "Element": "Human",
+  "Method": "DFS",
   "isSatisfied": true,
-  "NodeCountElement": 8,
-  "NodeCountRecipe": 4,
+  "NodeCountElement": 19,
+  "NodeCountRecipe": 19,
   "SearchTimeInMiliseconds": 0,
   "TotalPathsWanted": 4,
   "TotalPathsFound": 4,
   "Steps": [
     [
       [
+        "Water",
         "Earth",
-        "Earth",
-        "Land"
+        "Mud"
+      ],
+      [
+        "Air",
+        "Air",
+        "Pressure"
       ],
       [
         "Earth",
-        "Earth",
-        "Land"
+        "Pressure",
+        "Stone"
       ],
       [
-        "Land",
-        "Land",
-        "Continent"
-      ],
-      [
-        "Earth",
-        "Earth",
-        "Land"
+        "Mud",
+        "Stone",
+        "Clay"
       ],
       [
         "Earth",
-        "Earth",
-        "Land"
+        "Fire",
+        "Lava"
       ],
       [
-        "Land",
-        "Land",
-        "Continent"
+        "Water",
+        "Water",
+        "Puddle"
       ],
       [
-        "Continent",
-        "Continent",
-        "Planet"
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Puddle",
+        "Puddle",
+        "Pond"
+      ],
+      [
+        "Pond",
+        "Water",
+        "Lake"
+      ],
+      [
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Puddle",
+        "Puddle",
+        "Pond"
+      ],
+      [
+        "Pond",
+        "Water",
+        "Lake"
+      ],
+      [
+        "Lake",
+        "Lake",
+        "Sea"
+      ],
+      [
+        "Lava",
+        "Sea",
+        "Primordial soup"
+      ],
+      [
+        "Primordial soup",
+        "Time",
+        "Life"
+      ],
+      [
+        "Clay",
+        "Life",
+        "Human"
       ]
     ],
     [
       [
+        "Water",
         "Earth",
-        "Earth",
-        "Land"
+        "Mud"
+      ],
+      [
+        "Air",
+        "Air",
+        "Pressure"
       ],
       [
         "Earth",
-        "Earth",
-        "Land"
+        "Pressure",
+        "Stone"
       ],
       [
-        "Land",
-        "Land",
-        "Continent"
+        "Mud",
+        "Stone",
+        "Clay"
       ],
       [
         "Earth",
-        "Earth",
-        "Land"
+        "Fire",
+        "Lava"
       ],
       [
-        "Land",
-        "Earth",
-        "Continent"
+        "Water",
+        "Water",
+        "Puddle"
       ],
       [
-        "Continent",
-        "Continent",
-        "Planet"
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Puddle",
+        "Puddle",
+        "Pond"
+      ],
+      [
+        "Pond",
+        "Water",
+        "Lake"
+      ],
+      [
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Puddle",
+        "Water",
+        "Pond"
+      ],
+      [
+        "Pond",
+        "Water",
+        "Lake"
+      ],
+      [
+        "Lake",
+        "Lake",
+        "Sea"
+      ],
+      [
+        "Lava",
+        "Sea",
+        "Primordial soup"
+      ],
+      [
+        "Primordial soup",
+        "Time",
+        "Life"
+      ],
+      [
+        "Clay",
+        "Life",
+        "Human"
       ]
     ],
     [
       [
+        "Water",
         "Earth",
-        "Earth",
-        "Land"
+        "Mud"
       ],
       [
-        "Land",
-        "Earth",
-        "Continent"
-      ],
-      [
-        "Earth",
-        "Earth",
-        "Land"
+        "Air",
+        "Air",
+        "Pressure"
       ],
       [
         "Earth",
+        "Pressure",
+        "Stone"
+      ],
+      [
+        "Mud",
+        "Stone",
+        "Clay"
+      ],
+      [
         "Earth",
-        "Land"
+        "Fire",
+        "Lava"
       ],
       [
-        "Land",
-        "Land",
-        "Continent"
+        "Water",
+        "Water",
+        "Puddle"
       ],
       [
-        "Continent",
-        "Continent",
-        "Planet"
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Puddle",
+        "Puddle",
+        "Pond"
+      ],
+      [
+        "Pond",
+        "Water",
+        "Lake"
+      ],
+      [
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Puddle",
+        "Puddle",
+        "Pond"
+      ],
+      [
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Puddle",
+        "Puddle",
+        "Pond"
+      ],
+      [
+        "Pond",
+        "Pond",
+        "Lake"
+      ],
+      [
+        "Lake",
+        "Lake",
+        "Sea"
+      ],
+      [
+        "Lava",
+        "Sea",
+        "Primordial soup"
+      ],
+      [
+        "Primordial soup",
+        "Time",
+        "Life"
+      ],
+      [
+        "Clay",
+        "Life",
+        "Human"
       ]
     ],
     [
       [
+        "Water",
         "Earth",
-        "Earth",
-        "Land"
+        "Mud"
       ],
       [
-        "Land",
-        "Earth",
-        "Continent"
+        "Air",
+        "Air",
+        "Pressure"
       ],
       [
         "Earth",
-        "Earth",
-        "Land"
+        "Pressure",
+        "Stone"
       ],
       [
-        "Land",
-        "Earth",
-        "Continent"
+        "Mud",
+        "Stone",
+        "Clay"
       ],
       [
-        "Continent",
-        "Continent",
-        "Planet"
+        "Earth",
+        "Fire",
+        "Lava"
+      ],
+      [
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Puddle",
+        "Puddle",
+        "Pond"
+      ],
+      [
+        "Pond",
+        "Water",
+        "Lake"
+      ],
+      [
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Puddle",
+        "Puddle",
+        "Pond"
+      ],
+      [
+        "Water",
+        "Water",
+        "Puddle"
+      ],
+      [
+        "Puddle",
+        "Water",
+        "Pond"
+      ],
+      [
+        "Pond",
+        "Pond",
+        "Lake"
+      ],
+      [
+        "Lake",
+        "Lake",
+        "Sea"
+      ],
+      [
+        "Lava",
+        "Sea",
+        "Primordial soup"
+      ],
+      [
+        "Primordial soup",
+        "Time",
+        "Life"
+      ],
+      [
+        "Clay",
+        "Life",
+        "Human"
       ]
     ]
   ]

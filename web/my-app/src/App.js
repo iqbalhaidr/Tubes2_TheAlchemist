@@ -1,13 +1,18 @@
-const React = require('react');
-const { useState } = React;
-const { Network } = require('vis-network/standalone');
-require('vis-network/styles/vis-network.css');
-require('./App.css');
+// const React = require('react');
+// const { useState } = React;
+// const { Network } = require('vis-network/standalone');
+// require('vis-network/styles/vis-network.css');
+// require('./App.css');
+
+import { useState } from 'react';
+import { Network } from 'vis-network/standalone';
+import 'vis-network/styles/vis-network.css';
+import './App.css';
 
 // Program Aplikasi berbasis Web
 function App() {
   const [algorithm, setAlgorithm] = useState('bfs');
-  const [search, setSearch] = useState('terpendek');
+  const [search, setSearch] = useState('satu');
   const [element, setElement] = useState(' '); 
   const [searchTime, setSearchTime] = useState('00.00');
   const [nodesVisited, setNodesVisited] = useState('0');
@@ -184,7 +189,7 @@ function App() {
           } else if (responseDataJson.isSatisfied !== undefined) {
               recipeCount = (responseDataJson.Steps || []).length || 0;
           }
-          setRecipeResult(search === 'terpendek' ? `Resep terpendek untuk ${element}` : `Ditemukan ${recipeCount} resep untuk ${element}`);
+          setRecipeResult(search === 'satu' ? `Ditemukan satu resep untuk ${element}` : `Ditemukan ${recipeCount} resep untuk ${element}`);
 
 
           const container = document.getElementById('tree');
@@ -239,7 +244,7 @@ function App() {
             <div>
                 <label>Pencarian: </label>
                 <select value={search} onChange={(e) => setSearch(e.target.value)}>
-                    <option value="terpendek">Resep Terpendek</option>
+                    <option value="resep">Satu Resep</option>
                     <option value="semua">Semua Resep</option>
                 </select>
                 {search === 'semua' && (
@@ -284,139 +289,3 @@ function App() {
 }
 
 export default App;
-
-
-
-//     {/* return React.createElement(
-//         'div',
-//         { style: {padding: '20px' } },
-//         React.createElement(
-//             'header',
-//             { className: 'App-header' },
-//             React.createElement(
-//                 'h1',
-//                 { className: 'App-title' },
-//                 'Tugas Besar 2'
-//             ),
-//             React.createElement(
-//               'h2',
-//               { className: 'App-subtitle' },
-//               'Pencarian Resep dengan Algoritma BFS/DFS dalam Permainan Little Alchemy 2'
-//             ),
-//             React.createElement(
-//               'h3',
-//               { className: 'App-subsubtitle'},
-//               'Dibuat oleh Kelompok The Alchemist'
-//             )
-//         ),
-//         React.createElement(
-//             'div',
-//             null,
-//             React.createElement(
-//                 'label', 
-//                 null, 
-//                 'Algoritma: '
-//             )
-//         ),
-//         React.createElement(
-//             'select',
-//             { value: algorithm, onChange: e => setAlgorithm(e.target.value) },
-//             React.createElement(
-//                 'option', 
-//                 { value: 'bfs' }, 'BFS'
-//             ),
-//             React.createElement(
-//                 'option', 
-//                 { value: 'dfs' }, 'DFS'
-//             ),
-//             React.createElement(
-//                 'option', 
-//                 { value: 'bidirectional' }, 'Bidirectional'
-//             )
-//         ),
-//         React.createElement(
-//             'div',
-//             null,
-//             React.createElement(
-//                 'label', null, 'Pencarian: '
-//             ),
-//             React.createElement(
-//             'select',
-//             { value: search, onChange: e => setSearch(e.target.value) },
-//             React.createElement(
-//                 'option', 
-//                 { value: 'terpendek' }, 'Resep Terpendek'
-//             ),
-//             React.createElement(
-//                 'option',
-//                 {value: 'semua'}, 'Semua Resep')
-//             ),
-//             search === 'semua' &&
-//                 React.createElement('input', {
-//                     type: 'number',
-//                     value: maxRecipes,
-//                     onChange: e => setMaxRecipes(Math.max(1, e.target.value)),
-//                     min: '1',
-//                     placeholder: 'Jumlah Resep Terbanyak'
-//                 }) 
-//         ),
-//         React.createElement(
-//             'div',
-//             null,
-//             React.createElement(
-//                 'label',
-//                 null, 
-//                 'Nama element: '
-//             ),
-//             React.createElement(
-//                 'input', 
-//                 {
-//                     type: 'text',
-//                     value: element, 
-//                     onChange: e => setElement(e.target.value),
-//                     placeholder: 'e.g., water'
-//                 }
-//             ),
-//             React.createElement(
-//                 'button',
-//                 { onClick: findRecipes },
-//                 'Cari Resep'
-//             ),
-//         ),
-
-//         React.createElement(
-//             'div',
-//             { className: 'App-output' },
-//             React.createElement(
-//                 'div',
-//                 null,
-//                 React.createElement(
-//                     'p',
-//                     null,
-//                     'Waktu pencarian: ',
-//                     searchTime,
-//                     ' ms'
-//                 ),
-//                 React.createElement(
-//                     'p',
-//                     null,
-//                     'Jumlah node yang dikunjungi: ',
-//                     nodesVisited
-//                 ),
-//                 React.createElement(
-//                     'p',
-//                     null,
-//                     'Hasil pencarian: ', 
-//                     recipeResult
-//                 )
-//             ),
-//             React.createElement(
-//                 'div',
-//                 { id: 'tree',
-//                     style : 
-//                     { height: '400px', width: '100%', border: '1px solid #ccc', marginTop: '20px'   } 
-//                 }
-//             )
-//         )
-//     )
-// } */}
