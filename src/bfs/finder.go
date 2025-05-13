@@ -26,10 +26,22 @@ func helperBFSSingle(elementName string, pathResult string) {
 	target := elementName
 	var nodeCountElement int = 0
 	var nodeCountRecipe int = 0
+	memo := make(map[string][]RecipePath)
 
 	start := time.Now()
-	ok, steps := bfsSingle(target, recipeMap, tierMap, &nodeCountElement, &nodeCountRecipe)
+	// Menggunakan bfsMultiple dengan nPath = 1
+	hasil := bfsMultiple(target, recipeMap, tierMap, memo, &nodeCountElement, &nodeCountRecipe, 1)
 	elapsed := time.Since(start)
+
+	var steps [][3]string
+	ok := len(hasil) > 0
+	if ok {
+		// Mengonversi hasil ke format penulisan
+		steps = make([][3]string, len(hasil[0]))
+		for i, step := range hasil[0] {
+			steps[i] = [3]string(step)
+		}
+	}
 
 	WriteData(pathResult, target, "BFS", ok, steps, nodeCountElement, nodeCountRecipe, int(elapsed.Milliseconds()))
 
@@ -42,83 +54,6 @@ func helperBFSSingle(elementName string, pathResult string) {
 	fmt.Println("nodeCountRecipe: ", nodeCountRecipe)
 	fmt.Println("Total step: ", len(steps))
 	fmt.Printf("Searching Time: %d ms\n", elapsed.Milliseconds())
-}
-
-func bfsSingle(elementName string, recipeMap map[string][][2]string, tierMap map[string]int, nodeCountElement *int, nodeCountRecipe *int) (bool, [][3]string) {
-	base := map[string]bool{"Air": true, "Water": true, "Fire": true, "Earth": true, "Time": true}
-	if base[elementName] {
-		return true, [][3]string{}
-	}
-
-	type QueueItem struct {
-		element string
-		path    [][3]string
-	}
-
-	queue := []QueueItem{{element: elementName, path: [][3]string{}}}
-	visited := make(map[string]bool)
-	parent := make(map[string][2]string)
-	solutionPath := make(map[string][][3]string)
-
-	for len(queue) > 0 {
-		current := queue[0]
-		queue = queue[1:]
-		(*nodeCountElement)++
-
-		if visited[current.element] {
-			continue
-		}
-		visited[current.element] = true
-
-		if base[current.element] {
-			solutionPath[current.element] = [][3]string{}
-			continue
-		}
-
-		elementTier := tierMap[current.element]
-		foundSolution := false
-
-		for _, recipe := range recipeMap[current.element] {
-			nameA := recipe[0]
-			nameB := recipe[1]
-			tierA := tierMap[nameA]
-			tierB := tierMap[nameB]
-
-			if tierA >= elementTier || tierB >= elementTier {
-				continue
-			}
-
-			(*nodeCountRecipe)++
-
-			if _, existsA := solutionPath[nameA]; !existsA {
-				queue = append(queue, QueueItem{element: nameA, path: append(current.path, [3]string{nameA, nameB, current.element})})
-			}
-			if _, existsB := solutionPath[nameB]; !existsB {
-				queue = append(queue, QueueItem{element: nameB, path: append(current.path, [3]string{nameA, nameB, current.element})})
-			}
-
-			if solutionA, okA := solutionPath[nameA]; okA {
-				if solutionB, okB := solutionPath[nameB]; okB {
-					combined := append(append(solutionA, solutionB...), [3]string{nameA, nameB, current.element})
-					solutionPath[current.element] = combined
-					foundSolution = true
-					if current.element == elementName {
-						return true, combined
-					}
-					break
-				}
-			}
-		}
-
-		if !foundSolution {
-			parent[current.element] = [2]string{}
-		}
-	}
-
-	if path, ok := solutionPath[elementName]; ok {
-		return true, path
-	}
-	return false, nil
 }
 
 /* ===================================================================================================================== */
@@ -168,10 +103,12 @@ func bfsMultiple(
 ) []RecipePath {
 	(*nodeCountElement)++
 
+	// Mengembalikan jalur kosong jika elemen dasar
 	if baseElements[elementName] {
 		return []RecipePath{{}}
 	}
 
+	// Memeriksa memo agar tidak menghitung ulang
 	memoLock.RLock()
 	if paths, found := memo[elementName]; found {
 		memoLock.RUnlock()
@@ -198,17 +135,18 @@ func bfsMultiple(
 			continue
 		}
 
+		// Mencoba semua resep untuk elemen
 		for _, recipe := range recipeMap[current.element] {
 			nameA, nameB := recipe[0], recipe[1]
 			tierA, tierB := tierMap[nameA], tierMap[nameB]
 
+			// Menghindari siklus tak berujung dengan tier lebih tinggi atau sama
 			if tierA >= elementTier || tierB >= elementTier {
 				continue
 			}
 
 			(*nodeCountRecipe)++
 
-			// Check if we have solutions for the components
 			pathsA, hasA := solutions[nameA]
 			if !hasA {
 				pathsA = bfsMultiple(nameA, recipeMap, tierMap, memo, nodeCountElement, nodeCountRecipe, maxPaths)
@@ -224,12 +162,14 @@ func bfsMultiple(
 			var newPaths []RecipePath
 			for _, pathA := range pathsA {
 				for _, pathB := range pathsB {
+					// Menggabungkan path dari A dan B serta langkah membuat elemen sekarang
 					combined := make(RecipePath, 0, len(pathA)+len(pathB)+1)
 					combined = append(combined, pathA...)
 					combined = append(combined, pathB...)
 					combined = append(combined, Step{nameA, nameB, current.element})
 					newPaths = append(newPaths, combined)
 
+					// Menghentikan jika sudah cukup banyak jalur
 					if current.element == elementName && len(newPaths) >= maxPaths {
 						break
 					}
@@ -254,6 +194,7 @@ func bfsMultiple(
 		}
 	}
 
+	// Menyimpan ke memo untuk menghindari perhitungan ulang
 	memoLock.Lock()
 	memo[elementName] = solutions[elementName]
 	memoLock.Unlock()
